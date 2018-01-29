@@ -1,2 +1,5 @@
 # drum-machine-interfaces
-interfaces for drum machines
+
+## about
+
+this is a project by [aarón montoya-moraga](http://montoyamoraga.io/)
