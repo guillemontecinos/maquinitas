@@ -16,8 +16,14 @@ the patches are built on max 8
 
 ## drum machines
 
-this is a list of the drum machines i am working with:
+this is a list of the drum machines i want to incorporate to this library:
 
+* alesis dr-16
+* arturia drumbrute
+* boss dr-3
+* dave smith instruments tempest
+* korg volca beat
+* korg volca kick
 * mfb tanzbär lite
 * moog dfam
 * roland tr-505
