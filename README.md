@@ -6,7 +6,7 @@ this is a project by [aarón montoya-moraga](http://montoyamoraga.io/)
 
 i love drum machines so i built this library of patches for interfacing with drum machines.
 
-MIT License
+the patches are built on max 8
 
 ## contents
 
