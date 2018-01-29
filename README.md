@@ -14,6 +14,19 @@ the patches are built on max 8
 
 * patches: max patches to interface with drum machines
 
+## drum machines
+
+this is a list of the drum machines i am working with:
+
+* mfb tanzbär lite
+* moog dfam
+* roland tr-505
+* roland tr-706
+* roland tr-707
+* roland tr-727
+* roland tr-08
+* roland tr-8
+
 ## license
 
 mit
