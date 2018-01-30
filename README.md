@@ -4,9 +4,11 @@
 
 this is a project by [aarón montoya-moraga](http://montoyamoraga.io/)
 
-i love drum machines so i built this library of patches for interfacing with drum machines.
+i love drum machines so i built this library for interfacing with drum machines.
 
-the patches are built on max 8
+the software consists of patches built on [max](https://en.wikipedia.org/wiki/Max_(software)).
+
+i included the manuals for all the drum machines as reference material, i don't own the copyright of them, please don't sue me.
 
 ## contents
 
@@ -18,28 +20,34 @@ the patches are built on max 8
 
 this is a list of the drum machines i want to incorporate to this library:
 
-* alesis sr-16
-* alesis sr-18
-* arturia drumbrute
-* arturia sparkle
-* boss dr-3
-* boss dr-880
-* dave smith instruments tempest
-* elektron analog rytm mki
-* elektron analog rytm mkii
-* korg volca beat
-* korg volca kick
-* mfb tanzbär lite
-* moog dfam
-* nord drum
-* nord drum 2
-* nord drum 3p
-* roland tr-505
-* roland tr-706
-* roland tr-707
-* roland tr-727
-* roland tr-08
-* roland tr-8
+* [alesis sr-16]()
+* [alesis sr-18]()
+* [arturia drumbrute]()
+* [arturia sparkle]()
+* [boss dr-3]()
+* [boss dr-880]()
+* [dave smith instruments tempest]()
+* [elektron analog rytm mki]()
+* [elektron analog rytm mkii]()
+* [korg volca beat]()
+* [korg volca kick]()
+* [mfb tanzbär]()
+* [mfb tanzbär lite]()
+* [mfb tanzmaus]()
+* [moog dfam]()
+* [nord drum]()
+* [nord drum 2]()
+* [nord drum 3p]()
+* [roland tr-8]()
+* [roland tr-08]()
+* [roland tr-09]()
+* [roland tr-505]()
+* [roland tr-606]()
+* [roland tr-707]()
+* [roland tr-727]()
+* [roland tr-727]()
+* [roland tr-808]()
+* [roland tr-909]()
 
 ## license
 
