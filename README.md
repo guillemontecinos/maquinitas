@@ -16,32 +16,32 @@ i love drum machines so i am building this library of [max](https://en.wikipedia
 
 ## drum machines
 
-* ~~[alesis sr-16]()~~
-* ~~[alesis sr-18]()~~
-* ~~[arturia drumbrute]()~~
-* ~~[boss dr-3]()~~
-* ~~[boss dr-880]()~~
-* ~~[dave smith instruments tempest]()~~
-* ~~[elektron analog rytm mki]()~~
-* ~~[elektron analog rytm mkii]()~~
-* **[korg volca beat]() - work in progress**
-* **[korg volca kick]() - work in progress**
-* ~~[mfb tanzbär lite]()~~
-* ~~[mfb tanzbär]()~~
-* ~~[mfb tanzmaus]()~~
-* ~~[moog dfam]()~~
-* ~~[nord drum]()~~
-* ~~[nord drum 2]()~~
-* ~~[nord drum 3p]()~~
-* ~~[roland tr-8]()~~
-* ~~[roland tr-08]()~~
-* ~~[roland tr-09]()~~
-* ~~[roland tr-505]()~~
-* ~~[roland tr-606]()~~
-* ~~[roland tr-707]()~~
-* ~~[roland tr-727]()~~
-* ~~[roland tr-808]()~~
-* ~~[roland tr-909]()~~
+* ~~[alesis sr-16](https://github.com/montoyamoraga/drum-machine-interfaces/blob/master/notes/alesis-sr-16.md)~~
+* ~~[alesis sr-18](https://github.com/montoyamoraga/drum-machine-interfaces/blob/master/notes/alesis-sr-18.md)~~
+* ~~[arturia drumbrute](https://github.com/montoyamoraga/drum-machine-interfaces/blob/master/notes/arturia-drumbrute.md)~~
+* ~~[boss dr-3](https://github.com/montoyamoraga/drum-machine-interfaces/blob/master/notes/boss-dr-3.md)~~
+* ~~[boss dr-880](https://github.com/montoyamoraga/drum-machine-interfaces/blob/master/notes/boss-dr-880.md)~~
+* ~~[dave smith instruments tempest](https://github.com/montoyamoraga/drum-machine-interfaces/blob/master/notes/dave-smith-instruments-tempest.md)~~
+* ~~[elektron analog rytm mki](https://github.com/montoyamoraga/drum-machine-interfaces/blob/master/notes/elektron-analog-rytm-mki.md)~~
+* ~~[elektron analog rytm mkii](https://github.com/montoyamoraga/drum-machine-interfaces/blob/master/notes/elektron-analog-rytm-mkii.md)~~
+* **[korg volca beats](https://github.com/montoyamoraga/drum-machine-interfaces/blob/master/notes/korga-volca-beats.md) - work in progress**
+* **[korg volca kick](https://github.com/montoyamoraga/drum-machine-interfaces/blob/master/notes/korga-volca-kick.md) - work in progress**
+* ~~[mfb tanzbär lite](https://github.com/montoyamoraga/drum-machine-interfaces/blob/master/notes/mfb-tanzbar-lite.md)~~
+* ~~[mfb tanzbär](https://github.com/montoyamoraga/drum-machine-interfaces/blob/master/notes/mfb-tanzbar.md)~~
+* ~~[mfb tanzmaus](https://github.com/montoyamoraga/drum-machine-interfaces/blob/master/notes/mfb-tanzmaus.md)~~
+* ~~[moog dfam](https://github.com/montoyamoraga/drum-machine-interfaces/blob/master/notes/moog-dfam.md)~~
+* ~~[nord drum](https://github.com/montoyamoraga/drum-machine-interfaces/blob/master/notes/nord-drum.md)~~
+* ~~[nord drum 2](https://github.com/montoyamoraga/drum-machine-interfaces/blob/master/notes/nord-drum-2.md)~~
+* ~~[nord drum 3p](https://github.com/montoyamoraga/drum-machine-interfaces/blob/master/notes/nord-drum-3p.md)~~
+* ~~[roland tr-08](https://github.com/montoyamoraga/drum-machine-interfaces/blob/master/notes/roland-tr-08.md)~~
+* ~~[roland tr-09](https://github.com/montoyamoraga/drum-machine-interfaces/blob/master/notes/roland-tr-09.md)~~
+* ~~[roland tr-505](https://github.com/montoyamoraga/drum-machine-interfaces/blob/master/notes/roland-tr-505.md)~~
+* ~~[roland tr-606](https://github.com/montoyamoraga/drum-machine-interfaces/blob/master/notes/roland-tr-606.md)~~
+* ~~[roland tr-707](https://github.com/montoyamoraga/drum-machine-interfaces/blob/master/notes/roland-tr-707.md)~~
+* ~~[roland tr-727](https://github.com/montoyamoraga/drum-machine-interfaces/blob/master/notes/roland-tr-727.md)~~
+* ~~[roland tr-8](https://github.com/montoyamoraga/drum-machine-interfaces/blob/master/notes/roland-tr-8.md)~~
+* ~~[roland tr-808](https://github.com/montoyamoraga/drum-machine-interfaces/blob/master/notes/roland-tr-808.md)~~
+* ~~[roland tr-909](https://github.com/montoyamoraga/drum-machine-interfaces/blob/master/notes/roland-tr-909.md)~~
 
 ## license
 
