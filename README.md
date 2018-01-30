@@ -16,32 +16,32 @@ i love drum machines so i am building this library of [max](https://en.wikipedia
 
 ## drum machines
 
-* **[alesis sr-16]() - not ready yet**
+* ~~[alesis sr-16]()~~
 * ~~[alesis sr-18]()~~
-* [arturia drumbrute]()
-* [boss dr-3]()
-* [boss dr-880]()
-* [dave smith instruments tempest]()
-* [elektron analog rytm mki]()
-* [elektron analog rytm mkii]()
-* [korg volca beat]()
-* [korg volca kick]()
-* [mfb tanzbär lite]()
-* [mfb tanzbär]()
-* [mfb tanzmaus]()
-* [moog dfam]()
-* [nord drum]()
-* [nord drum 2]()
-* [nord drum 3p]()
-* [roland tr-8]()
-* [roland tr-08]()
-* [roland tr-09]()
-* [roland tr-505]()
-* [roland tr-606]()
-* [roland tr-707]()
-* [roland tr-727]()
-* [roland tr-808]()
-* [roland tr-909]()
+* ~~[arturia drumbrute]()~~
+* ~~[boss dr-3]()~~
+* ~~[boss dr-880]()~~
+* ~~[dave smith instruments tempest]()~~
+* ~~[elektron analog rytm mki]()~~
+* ~~[elektron analog rytm mkii]()~~
+* **[korg volca beat]() - work in progress**
+* **[korg volca kick]() - work in progress**
+* ~~[mfb tanzbär lite]()~~
+* ~~[mfb tanzbär]()~~
+* ~~[mfb tanzmaus]()~~
+* ~~[moog dfam]()~~
+* ~~[nord drum]()~~
+* ~~[nord drum 2]()~~
+* ~~[nord drum 3p]()~~
+* ~~[roland tr-8]()~~
+* ~~[roland tr-08]()~~
+* ~~[roland tr-09]()~~
+* ~~[roland tr-505]()~~
+* ~~[roland tr-606]()~~
+* ~~[roland tr-707]()~~
+* ~~[roland tr-727]()~~
+* ~~[roland tr-808]()~~
+* ~~[roland tr-909]()~~
 
 ## license
 
