@@ -4,7 +4,7 @@
 
 this is a project by [aarón montoya-moraga](http://montoyamoraga.io/)
 
-i love drum machines so i built this library of [max](https://en.wikipedia.org/wiki/Max_(software)) patches for interfacing with drum machines.
+i love drum machines so i am building this library of [max](https://en.wikipedia.org/wiki/Max_(software)) patches for interfacing with drum machines.
 
 ## contents
 
