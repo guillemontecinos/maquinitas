@@ -27,7 +27,6 @@ this is a list of the drum machines i want to incorporate to this library:
 * [alesis sr-16]()
 * [alesis sr-18]()
 * [arturia drumbrute]()
-* [arturia sparkle]()
 * [boss dr-3]()
 * [boss dr-880]()
 * [dave smith instruments tempest]()
