@@ -14,8 +14,6 @@ i love drum machines so i am building this library of [max](https://en.wikipedia
 
 * [notes](https://github.com/montoyamoraga/drum-machine-interfaces/tree/master/notes): my own notes for all the drum machines
 
-
-
 ## contents
 
 * manuals: pdfs with the original manuals of drum machines
