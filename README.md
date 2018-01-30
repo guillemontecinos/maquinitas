@@ -12,20 +12,12 @@ i love drum machines so i am building this library of [max](https://en.wikipedia
 
 * [max-patches](https://github.com/montoyamoraga/drum-machine-interfaces/tree/master/patches): max patches to interface with the drum machines
 
-* [notes](https://github.com/montoyamoraga/drum-machine-interfaces/tree/master/notes): my own notes for all the drum machines
-
-## contents
-
-* manuals: pdfs with the original manuals of drum machines
-
-* patches: max patches to interface with drum machines
+* [notes](https://github.com/montoyamoraga/drum-machine-interfaces/tree/master/notes): notes for all the drum machines
 
 ## drum machines
 
-this is a list of the drum machines i want to incorporate to this library:
-
-* [alesis sr-16]()
-* [alesis sr-18]()
+* **[alesis sr-16]() - not ready yet**
+* ~~[alesis sr-18]()~~
 * [arturia drumbrute]()
 * [boss dr-3]()
 * [boss dr-880]()
