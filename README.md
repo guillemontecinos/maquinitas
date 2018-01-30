@@ -4,11 +4,15 @@
 
 this is a project by [aarón montoya-moraga](http://montoyamoraga.io/)
 
-i love drum machines so i built this library for interfacing with drum machines.
+i love drum machines so i built this library of [max](https://en.wikipedia.org/wiki/Max_(software)) patches for interfacing with drum machines.
 
-the software consists of patches built on [max](https://en.wikipedia.org/wiki/Max_(software)).
+## contents
 
-i included the manuals for all the drum machines as reference material, i don't own the copyright of them, please don't sue me.
+* [manuals](https://github.com/montoyamoraga/drum-machine-interfaces/tree/master/manuals): manuals for all the drum machines as reference material, i don't own the copyright of them, please don't sue me.
+
+* [notes](https://github.com/montoyamoraga/drum-machine-interfaces/tree/master/notes): my own notes for all the drum machines
+
+* [max patches](https://github.com/montoyamoraga/drum-machine-interfaces/tree/master/patches): max patches to interface with the drum machines
 
 ## contents
 
