@@ -33,6 +33,7 @@ i love drum machines so i am building this library of [max](https://en.wikipedia
 * ~~[nord drum](https://github.com/montoyamoraga/drum-machine-interfaces/blob/master/notes/nord-drum.md)~~
 * ~~[nord drum 2](https://github.com/montoyamoraga/drum-machine-interfaces/blob/master/notes/nord-drum-2.md)~~
 * ~~[nord drum 3p](https://github.com/montoyamoraga/drum-machine-interfaces/blob/master/notes/nord-drum-3p.md)~~
+* ~~[radel digi-108](https://github.com/montoyamoraga/drum-machine-interfaces/blob/master/notes/radel-digi-108.md)~~
 * ~~[roland tr-08](https://github.com/montoyamoraga/drum-machine-interfaces/blob/master/notes/roland-tr-08.md)~~
 * ~~[roland tr-09](https://github.com/montoyamoraga/drum-machine-interfaces/blob/master/notes/roland-tr-09.md)~~
 * ~~[roland tr-505](https://github.com/montoyamoraga/drum-machine-interfaces/blob/master/notes/roland-tr-505.md)~~
