@@ -2,9 +2,9 @@
 
 ## about
 
-i love synthesizers, drum machines and other operated instruments controlled via midi so i am building this library for using them creatively.
+maquinitas is a software library for controlling hardware instruments via midi.
 
-this is a project by [aarón montoya-moraga](http://montoyamoraga.io/).
+maquinitas is a project by [aarón montoya-moraga](http://montoyamoraga.io/).
 
 ## releases
 
