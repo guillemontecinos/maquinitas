@@ -20,7 +20,7 @@ v0.0.1: max patches for [roland tr-505](https://github.com/montoyamoraga/maquini
 
 ## instruments
 
-* [critter and guitari septavox dr-880](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/critter/and-guitari-septavox.md)
+* [critter and guitari septavox](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/critter-and-guitari-septavox.md)
 * [roland tr-505](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/roland-tr-505.md)
 
 ## future additions to the library
