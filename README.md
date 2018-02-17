@@ -12,11 +12,11 @@ v0.0.1: max patches for [roland tr-505](https://github.com/montoyamoraga/maquini
 
 ## contents of this repository
 
-* [manuals](https://github.com/montoyamoraga/maquinitas/tree/gh-pages/manuals): manuals for all the instruments as reference material, i don't own the copyright of them, please don't sue me.
+* [manuals](https://github.com/montoyamoraga/maquinitas/tree/gh-pages/manuals): manuals for all the instruments as reference material, all copyright belongs to whoever has it, these manuals are included just for reference.
 
 * [max-patches](https://github.com/montoyamoraga/maquinitas/tree/gh-pages/max-patches): max patches to interface with the instruments.
 
-* [notes](https://github.com/montoyamoraga/maquinitas/tree/gh-pages/notes): notes for all the instrumennts.
+* [notes](https://github.com/montoyamoraga/maquinitas/tree/gh-pages/notes): notes for all the instruments.
 
 ## instruments
 
