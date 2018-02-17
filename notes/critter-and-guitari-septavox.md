@@ -17,26 +17,10 @@ options:
 
 | light        | Are           | Cool  |
 | --------- |-------------| -----|
-| red      | centered      |   $12 |
-| yellow   | centered      |   $12 |
-| green | centered   |   $12 |
-| light-blue | centered   |   $12 |
-| blue | centered   |   $12 |
-| magenta | centered   |   $12 |
-| white | centered   |   $12 |
-
-* light
-
-* red
-
-* yellow
-
-green
-
-light-blue
-
-blue
-
-magenta
-
-white
+| red       | centered      |   $12 |
+| yellow    | centered      |   $12 |
+| green     | centered   |   $12 |
+| light-blue| centered   |   $12 |
+| blue      | centered   |   $12 |
+| magenta   | centered   |   $12 |
+| white     | centered   |   $12 |
