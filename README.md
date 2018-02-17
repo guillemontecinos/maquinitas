@@ -16,6 +16,8 @@ i love synthesizers, drum machines and other operated instruments controlled via
 
 ## instruments
 
+this is a list of instruments that will be included:
+
 * ~~[alesis sr-16](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/alesis-sr-16.md)~~
 * ~~[alesis sr-18](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/alesis-sr-18.md)~~
 * ~~[arturia drumbrute](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/arturia-drumbrute.md)~~
@@ -24,8 +26,8 @@ i love synthesizers, drum machines and other operated instruments controlled via
 * ~~[dave smith instruments tempest](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/dave-smith-instruments-tempest.md)~~
 * ~~[elektron analog rytm mki](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/elektron-analog-rytm-mki.md)~~
 * ~~[elektron analog rytm mkii](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/elektron-analog-rytm-mkii.md)~~
-* **[korg volca beats](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/korga-volca-beats.md) - work in progress**
-* **[korg volca kick](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/korga-volca-kick.md) - work in progress**
+* ~~[korg volca beats](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/korga-volca-beats.md) - work in progress~~
+* ~~[korg volca kick](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/korga-volca-kick.md)~~
 * ~~[mfb tanzbär lite](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/mfb-tanzbar-lite.md)~~
 * ~~[mfb tanzbär](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/mfb-tanzbar.md)~~
 * ~~[mfb tanzmaus](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/mfb-tanzmaus.md)~~
