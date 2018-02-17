@@ -8,7 +8,6 @@ this is a project by [aarón montoya-moraga](http://montoyamoraga.io/).
 
 ## releases
 
-
 v0.0.1: max patches for [roland tr-505](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/roland-tr-505.md) and [critter and guitari septavox]((https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/critter-and-guitari-septavox.md)),  released on saturday february 17th 2018 at baby castles for [frequency sweep #2](http://frequencysweep.com/).
 
 ## contents of this repository
