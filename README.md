@@ -10,7 +10,7 @@ i love synthesizers, drum machines and other operated instruments controlled via
 
 * [manuals](https://github.com/montoyamoraga/maquinitas/tree/gh-pages/manuals): manuals for all the instruments as reference material, i don't own the copyright of them, please don't sue me.
 
-* [max-patches](https://github.com/montoyamoraga/maquinitas/tree/gh-pages/patches): max patches to interface with the instruments.
+* [max-patches](https://github.com/montoyamoraga/maquinitas/tree/gh-pages/max-patches): max patches to interface with the instruments.
 
 * [notes](https://github.com/montoyamoraga/maquinitas/tree/gh-pages/notes): notes for all the instrumennts.
 
