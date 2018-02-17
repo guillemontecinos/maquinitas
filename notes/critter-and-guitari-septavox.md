@@ -15,12 +15,12 @@ the controls on the instruments are:
 
 options:
 
-| light     | tone           | Cool  |
-|-----------|---------------| -----|
-| red       | dirty sine    |   $12 |
-| yellow    | sine          |   $12 |
-| green     | electric organ|   $12 |
-| light blue| square        |   $12 |
-| blue      | sawtooth      |   $12 |
-| magenta   | dirty square  |   $12 |
-| white     | computer      |   $12 |
+| light     | tone          | knob 1 | knob 2   |
+|-----------|---------------|--------|----------|
+|red       |dirty sine    |rate      |rate      |
+|yellow    |sine          |glide time|glide time|
+|green     |electric organ|rate      |rate      |
+|light blue|square        |attack    |rate      |
+|blue      |sawtooth      |rate      |rate      |
+|magenta   |dirty square  |rate      |rate      |
+|white     |computer      |glide time|rate      |
