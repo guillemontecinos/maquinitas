@@ -15,12 +15,12 @@ the controls on the instruments are:
 
 options:
 
-| light        | Are           | Cool  |
-| --------- |-------------| -----|
-| red       | centered      |   $12 |
-| yellow    | centered      |   $12 |
-| green     | centered   |   $12 |
-| light-blue| centered   |   $12 |
-| blue      | centered   |   $12 |
-| magenta   | centered   |   $12 |
-| white     | centered   |   $12 |
+| light     | tone           | Cool  |
+|-----------|---------------| -----|
+| red       | dirty sine    |   $12 |
+| yellow    | sine          |   $12 |
+| green     | electric organ|   $12 |
+| light blue| square        |   $12 |
+| blue      | sawtooth      |   $12 |
+| magenta   | dirty square  |   $12 |
+| white     | computer      |   $12 |
