@@ -8,6 +8,8 @@ for setting other parameters, hold down the func button, turn on the volca kick.
 
 |button|parameter              | knob 1   | knob 2   |
 |------|-----------------------|----------|----------|
+|button|parameter              | knob 1   | knob 2   |
+|------|-----------------------|----------|----------|
 |1     |auto power-off function|rate      |depth     |
 |2     |battery type selection |glide time|amount    |
 |3     |sync out polarity      |rate      |envelope  |
