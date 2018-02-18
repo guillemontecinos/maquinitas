@@ -38,7 +38,49 @@ the volca kick can be controlled via midi, simply connect the midi output of an 
 
 midi implementation chart
 
-|function       |transmitted|recognized|remarks|
-|---------------|-----------|----------|-------|
-|basic channel  |bla        |bla       |bla    |     
-|default changed|bla        |bla       |bla    |
+|function                       |transmitted|recognized|remarks|
+|-------------------------------|-----------|----------|-------|
+|basic channel                  |bla        |bla       |bla    |     
+|default changed                |bla        |bla       |bla    |
+|mode memorized                 |bla        |bla       |bla    |
+|mode messages                  |bla        |bla       |bla    |
+|mode altered                   |bla        |bla       |bla    |
+|note number                    |bla        |bla       |bla    |
+|true voice                     |bla        |bla       |bla    |
+|velocity note on               |bla        |bla       |bla    |
+|velocity note off              |bla        |bla       |bla    |
+|aftertouch polyphonic (key)    |bla        |bla       |bla    |
+|aftertouch monophonic (channel)|bla        |bla       |bla    |
+|pitch bend                     |bla        |bla       |bla    |
+|control change 40              |bla        |bla       |bla    |
+|control change 41              |bla        |bla       |bla    |
+|control change 42              |bla        |bla       |bla    |
+|control change 43              |bla        |bla       |bla    |
+|control change 44              |bla        |bla       |bla    |
+|control change 45              |bla        |bla       |bla    |
+|control change 46              |bla        |bla       |bla    |
+|control change 47              |bla        |bla       |bla    |
+|control change 48              |bla        |bla       |bla    |
+|control change 49              |bla        |bla       |bla    |
+|program change                 |bla        |bla       |bla    |
+|variable range                 |bla        |bla       |bla    |
+|system exclusive               |bla        |bla       |bla    |
+|system common song position    |bla        |bla       |bla    |
+|system common song select      |bla        |bla       |bla    |
+|system common tune             |bla        |bla       |bla    |
+|system real time clock         |bla        |bla       |bla    |
+|system real time command       |bla        |bla       |bla    |
+|aux messages local on/off      |bla        |bla       |bla    |
+|aux messages all notes off     |bla        |bla       |bla    |
+|aux messages active sense      |bla        |bla       |bla    |
+|aux messages reset             |bla        |bla       |bla    |
+
+notes:
+* 1: received when global parameter midi rx shortmessage is set to on.
+* 2: not received when global parameter midi clock src is set to internal; received when set to auto.
+
+modes:
+* mode 1: omni on, poly
+* mode 2: omni off, poly
+* mode 3: omni on, mono
+* mode 4: omni off, mono
