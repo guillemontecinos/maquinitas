@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 100.0, 104.0, 640.0, 480.0 ],
+		"rect" : [ 106.0, 218.0, 640.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -36,7 +36,20 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
-		"boxes" : [  ],
+		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"linecount" : 5,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 14.0, 7.0, 155.0, 74.0 ],
+					"style" : "",
+					"text" : "maquinitas\nby aaron montoya-moraga\nkorg volca kick\nfebruary 2018\nv0.0.2"
+				}
+
+			}
+ ],
 		"lines" : [  ],
 		"dependency_cache" : [  ],
 		"autosave" : 0
