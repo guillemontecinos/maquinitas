@@ -33,3 +33,12 @@ with led unlit:
 |8     |sync input/output unit |*once every 2 steps|stp2              |
 
 factory default settings are marked with an asterisk *
+
+the volca kick can be controlled via midi, simply connect the midi output of an external midi device to the midi in jack of the volca kick. the midi messages that can be received by the volca kik are listed in its midi implementation chart.
+
+midi implementation chart
+
+|function       |transmitted|recognized|remarks|
+|---------------|-----------|----------|-------|
+|basic channel  |bla        |bla       |bla    |     
+|default changed|bla        |bla       |bla    |
