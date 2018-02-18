@@ -6,15 +6,17 @@ to set the midi channel, hold down the memory button and turn the volca kick on.
 
 for setting other parameters, hold down the func button, turn on the volca kick. use the step buttons 1-8 to set your preferences for any or all of the global parameters. when finished, press the rec button. your settings will be saved and the volca kick will restart. to cancel without making changes, press the play button.
 
-|button|parameter              | knob 1   | knob 2   |
-|------|-----------------------|----------|----------|
-|button|parameter              | knob 1   | knob 2   |
-|------|-----------------------|----------|----------|
-|1     |auto power-off function|rate      |depth     |
-|2     |battery type selection |glide time|amount    |
-|3     |sync out polarity      |rate      |envelope  |
-|4     |sync in polarity       |attack    |decay     |
-|5     |tempo range settings   |rate      |envelope  |
-|6     |midi clock src         |rate      |pattern   |
-|7     |midi rx shortmessage   |rate      |pattern   |
-|8     |sync input/output unit |rate      |pattern   |
+with led lit:
+
+|button|parameter              |status              |display indication|
+|------|-----------------------|--------------------|------------------|
+|1     |auto power-off function|enabled             |ap.on             |
+|2     |battery type selection |nickel-metal hybride|bt.nh             |
+|3     |sync out polarity      |fall                |so.lo             |
+|4     |sync in polarity       |fall                |si.lo             |
+|5     |tempo range settings   |full (10-600)       |tp.fl             |
+|6     |midi clock src         |auto                |cl.at             |
+|7     |midi rx shortmessage   |on                  |st.on             |
+|8     |sync input/output unit |once a step         |stp1              |
+
+factory default settings are marked with an asterisk *
