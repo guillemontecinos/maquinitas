@@ -10,13 +10,13 @@ with led lit:
 
 |button|parameter              |status              |display indication|
 |------|-----------------------|--------------------|------------------|
-|1     |auto power-off function|enabled             |ap.on             |
+|1     |auto power-off function|*enabled            |ap.on             |
 |2     |battery type selection |nickel-metal hybride|bt.nh             |
 |3     |sync out polarity      |fall                |so.lo             |
 |4     |sync in polarity       |fall                |si.lo             |
 |5     |tempo range settings   |full (10-600)       |tp.fl             |
-|6     |midi clock src         |auto                |cl.at             |
-|7     |midi rx shortmessage   |on                  |st.on             |
+|6     |midi clock src         |*auto               |cl.at             |
+|7     |midi rx shortmessage   |*on                 |st.on             |
 |8     |sync input/output unit |once a step         |stp1              |
 
 with led unlit:
