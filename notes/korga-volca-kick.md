@@ -21,15 +21,15 @@ with led lit:
 
 with led unlit:
 
-|button|parameter              |status            |display indication|
-|------|-----------------------|------------------|------------------|
-|1     |auto power-off function|disabled          |ap.of             |
-|2     |battery type selection |alkaline          |btal              |
-|3     |sync out polarity      |rise              |so.hi             |
-|4     |sync in polarity       |rise              |si.hi             |
-|5     |tempo range settings   |narrow (56-240)   |tp.nr             |
-|6     |midi clock src         |internal          |cl.in             |
-|7     |midi rx shortmessage   |off               |st.of             |
-|8     |sync input/output unit |once every 2 steps|stp2              |
+|button|parameter              |status             |display indication|
+|------|-----------------------|-------------------|------------------|
+|1     |auto power-off function|disabled           |ap.of             |
+|2     |battery type selection |*alkaline          |btal              |
+|3     |sync out polarity      |*rise              |so.hi             |
+|4     |sync in polarity       |*rise              |si.hi             |
+|5     |tempo range settings   |*narrow (56-240)   |tp.nr             |
+|6     |midi clock src         |internal           |cl.in             |
+|7     |midi rx shortmessage   |off                |st.of             |
+|8     |sync input/output unit |*once every 2 steps|stp2              |
 
 factory default settings are marked with an asterisk *
