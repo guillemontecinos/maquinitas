@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 283.0, 79.0, 757.0, 649.0 ],
+		"rect" : [ -469.0, -1310.0, 757.0, 649.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -56,7 +56,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 653.0, 536.0, 78.0, 20.0 ],
-					"presentation_rect" : [ 643.5, 489.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "midi channel"
 				}
@@ -71,7 +70,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 601.0, 536.0, 50.0, 22.0 ],
-					"presentation_rect" : [ 591.5, 489.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -83,7 +81,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 496.5, 489.0, 75.0, 20.0 ],
-					"presentation_rect" : [ 496.5, 502.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "closed hihat"
 				}
@@ -97,7 +94,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "float" ],
 					"patching_rect" : [ 444.5, 522.0, 103.0, 22.0 ],
-					"presentation_rect" : [ 444.5, 535.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "makenote 127 10"
 				}
@@ -112,7 +108,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 444.5, 489.0, 50.0, 22.0 ],
-					"presentation_rect" : [ 444.5, 502.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -138,7 +133,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 394.5, 423.0, 24.0, 24.0 ],
-					"presentation_rect" : [ 394.5, 423.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -151,7 +145,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 394.5, 396.5, 36.0, 22.0 ],
-					"presentation_rect" : [ 394.5, 396.5, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "sel 1"
 				}
@@ -166,7 +159,6 @@
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 394.5, 366.0, 24.0, 24.0 ],
-					"presentation_rect" : [ 394.5, 366.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -179,7 +171,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 394.5, 258.0, 24.0, 24.0 ],
-					"presentation_rect" : [ 394.5, 258.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -192,7 +183,6 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "", "", "int" ],
 					"patching_rect" : [ 394.5, 285.5, 71.0, 22.0 ],
-					"presentation_rect" : [ 394.5, 285.5, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "counter 1 4"
 				}
@@ -207,7 +197,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 394.5, 313.5, 50.0, 22.0 ],
-					"presentation_rect" : [ 394.5, 313.5, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -866,7 +855,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 14.0, 7.0, 155.0, 74.0 ],
 					"style" : "",
-					"text" : "maquinitas\nby aaron montoya-moraga\nroland tr-505\nfebruary 2018\nv0.0.1"
+					"text" : "maquinitas\nby aaron montoya-moraga\nroland tr-505\nfebruary 2018\nv0.0.2"
 				}
 
 			}
