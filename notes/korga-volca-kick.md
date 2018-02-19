@@ -49,7 +49,7 @@ midi implementation chart
 |true voice                 |**************|0-127         |                  |
 |velocity note on           |x             |x 9n, v=1-127 |                  |
 |velocity note off          |x             |x             |                  |
-|aftertouch polyc (key)     |x             |x             |                  |
+|aftertouch poly  (key)     |x             |x             |                  |
 |aftertouch mono (channel)  |x             |x             |                  |
 |pitch bend                 |x             |x             |*1                |
 |control change 40          |x             |o             |pulse colour    *1|
