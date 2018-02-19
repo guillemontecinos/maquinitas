@@ -22,6 +22,8 @@ maquinitas is a project by [aarón montoya-moraga](http://montoyamoraga.io/).
 ## instruments
 
 * [critter and guitari septavox](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/critter-and-guitari-septavox.md)
+* [korg volca beats](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/korg-volca-beats.md)
+* [korg volca kick](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/korg-volca-kick.md)
 * [roland tr-505](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/roland-tr-505.md)
 
 ## future additions to the library
@@ -34,8 +36,7 @@ maquinitas is a project by [aarón montoya-moraga](http://montoyamoraga.io/).
 * dave smith instruments tempest
 * elektron analog rytm mki
 * elektron analog rytm mkii
-* korg volca beats
-* korg volca kick
+
 * mfb tanzbär lite
 * mfb tanzbär
 * mfb tanzmaus
