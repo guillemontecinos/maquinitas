@@ -19,6 +19,8 @@ maquinitas is a project by [aarón montoya-moraga](http://montoyamoraga.io/).
 
 * [notes](https://github.com/montoyamoraga/maquinitas/tree/gh-pages/notes): notes for all the instruments.
 
+* [releases](https://github.com/montoyamoraga/maquinitas/tree/gh-pages/releases): history of all of the past releases of the library.
+
 ## instruments
 
 * [critter and guitari septavox](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/critter-and-guitari-septavox.md)
