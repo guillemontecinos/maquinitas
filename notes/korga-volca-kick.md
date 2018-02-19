@@ -38,42 +38,42 @@ the volca kick can be controlled via midi, simply connect the midi output of an 
 
 midi implementation chart
 
-|function                       |transmitted   |recognized    |remarks|
-|-------------------------------|--------------|--------------|-------|
-|basic channel                  |**************|1-16          |bla    |     
-|default changed                |**************|1-16          |bla    |
-|mode memorized                 |x             |3             |bla    |
-|mode messages                  |x             |x             |bla    |
-|mode altered                   |**************|              |bla    |
-|note number                    |**************|0-127         |bla    |
-|true voice                     |**************|0-127         |bla    |
-|velocity note on               |x             |x 9n, v=1-127 |bla    |
-|velocity note off              |x             |x             |bla    |
-|aftertouch polyphonic (key)    |x             |x             |bla    |
-|aftertouch monophonic (channel)|x             |x             |bla    |
-|pitch bend                     |x             |x             |bla    |
-|control change 40              |x             |o             |bla    |
-|control change 41              |x             |o             |bla    |
-|control change 42              |x             |o             |bla    |
-|control change 43              |x             |o             |bla    |
-|control change 44              |x             |o             |bla    |
-|control change 45              |x             |o             |bla    |
-|control change 46              |x             |o             |bla    |
-|control change 47              |x             |o             |bla    |
-|control change 48              |x             |o             |bla    |
-|control change 49              |x             |o             |bla    |
-|program change                 |x             |x             |bla    |
-|variable range                 |**************|**************|bla    |
-|system exclusive               |x             |x             |bla    |
-|system common song position    |x             |o             |bla    |
-|system common song select      |x             |x             |bla    |
-|system common tune             |x             |x             |bla    |
-|system real time clock         |x             |o             |bla    |
-|system real time command       |x             |o             |bla    |
-|aux messages local on/off      |x             |x             |bla    |
-|aux messages all notes off     |x             |0 123-127     |bla    |
-|aux messages active sense      |x             |0             |bla    |
-|aux messages reset             |x             |x             |bla    |
+|function                   |transmitted   |recognized    |remarks           |
+|---------------------------|--------------|--------------|------------------|
+|basic channel              |**************|1-16          |memorized         |
+|default changed            |**************|1-16          |                  |
+|mode memorized             |x             |3             |                  |
+|mode messages              |x             |x             |                  |
+|mode altered               |**************|              |*1                |
+|note number                |**************|0-127         |*1                |
+|true voice                 |**************|0-127         |                  |
+|velocity note on           |x             |x 9n, v=1-127 |                  |
+|velocity note off          |x             |x             |                  |
+|aftertouch polyc (key)     |x             |x             |                  |
+|aftertouch mono (channel)  |x             |x             |                  |
+|pitch bend                 |x             |x             |*1                |
+|control change 40          |x             |o             |pulse colour    *1|
+|control change 41          |x             |o             |pulse level     *1|
+|control change 42          |x             |o             |amp attack      *1|
+|control change 43          |x             |o             |amp decay       *1|
+|control change 44          |x             |o             |drive           *1|
+|control change 45          |x             |o             |tone            *1|
+|control change 46          |x             |o             |resonator pitch *1|
+|control change 47          |x             |o             |resonator bend  *1|
+|control change 48          |x             |o             |resonator time  *1|
+|control change 49          |x             |o             |accent          *1|
+|program change             |x             |x             |                  |
+|variable range             |**************|**************|                  |
+|system exclusive           |x             |x             |                  |
+|system common song position|x             |o             |*2                |
+|system common song select  |x             |x             |                  |
+|system common tune         |x             |x             |                  |
+|system real time clock     |x             |o             |*2                |
+|system real time command   |x             |o             |*2                |
+|aux messages local on/off  |x             |x             |                  |
+|aux messages all notes off |x             |0 123-127     |*1                |
+|aux messages active sense  |x             |0             |                  |
+|aux messages reset         |x             |x             |                  |
 
 notes:
 * 1: received when global parameter midi rx shortmessage is set to on.
@@ -84,3 +84,7 @@ modes:
 * mode 2: omni off, poly
 * mode 3: omni on, mono
 * mode 4: omni off, mono
+
+signs:
+* o: yes
+* x: no
