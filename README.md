@@ -38,7 +38,23 @@ maquinitas is a project by [aarón montoya-moraga](http://montoyamoraga.io/).
 * dave smith instruments tempest
 * elektron analog rytm mki
 * elektron analog rytm mkii
-
+* eventide h9
+* eventide modfactor
+* eventide pitchfactor
+* eventide space
+* eventide timefactor
+* korg kaoss pad kp3+
+* korg kaossilator pro+
+* korg microkorg
+* korg microkorg s
+* korg microkorg xl+
+* korg minilogue
+* korg monologue
+* korg prologue
+* korg volca bass
+* korg volca fm
+* korg volca keys
+* korg volca sample
 * mfb tanzbär lite
 * mfb tanzbär
 * mfb tanzmaus
