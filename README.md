@@ -13,8 +13,6 @@ maquinitas is a project by [aarón montoya-moraga](http://montoyamoraga.io/).
 
 ## contents of this repository
 
-* [manuals](https://github.com/montoyamoraga/maquinitas/tree/gh-pages/manuals): manuals for all the instruments as reference material, all copyright belongs to whoever has it, these manuals are included just for reference.
-
 * [max-patches](https://github.com/montoyamoraga/maquinitas/tree/gh-pages/max-patches): max patches to interface with the instruments.
 
 * [notes](https://github.com/montoyamoraga/maquinitas/tree/gh-pages/notes): notes for all the instruments.
