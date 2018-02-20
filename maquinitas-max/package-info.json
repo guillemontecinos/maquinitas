@@ -1,7 +1,7 @@
 {
     "author" : "aaron montoya-moraga",
     "description" : "software library for controlling hardware midi instruments",
-    "homepatcher" : "Easing Functions.maxpat",
+    "homepatcher" : "maquinitas.maxpat",
     "max_version_min" : "7.1", "max_version_max" : "none",
     "name" : "maquinitas",
     "os" : {
