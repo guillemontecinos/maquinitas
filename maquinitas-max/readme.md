@@ -2,9 +2,9 @@
 
 ## about
 
-maquinitas is a software library for controlling hardware instruments via midi. this is the max flavor of the library, being developed at github.com/montoyamoraga/maquinitas.
+maquinitas is a software library for controlling hardware midi instruments. this is the max flavor of the library.
 
-maquinitas is a project by [aarón montoya-moraga](http://montoyamoraga.io/).
+maquinitas is a project by [aarón montoya-moraga](http://montoyamoraga.io/), available from http://github.com/montoyamoraga/maquinitas.
 
 ## releases
 
