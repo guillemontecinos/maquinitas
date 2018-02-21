@@ -54,6 +54,10 @@ modes:
 * 3: omni  on, mono  
 * 4: omni off, mono  
 
+signs:
+* o: yes
+* x: no
+
 control change list
 
 |control change |explanation            |
