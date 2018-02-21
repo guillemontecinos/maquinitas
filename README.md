@@ -8,7 +8,7 @@ maquinitas is a project by [aarón montoya-moraga](http://montoyamoraga.io/).
 
 ## releases
 
-* [v0.0.3](https://github.com/montoyamoraga/maquinitas/releases/tag/v0.0.3): released on wednesday february 21sth 2018, adds notes and max patches for roland sh-01a. now is bundled for distribution as max package.
+* [v0.0.3](https://github.com/montoyamoraga/maquinitas/releases/tag/v0.0.3): released on wednesday february 21st 2018, adds notes and max patches for roland sh-01a. now is bundled for distribution as max package.
 * [v0.0.2](https://github.com/montoyamoraga/maquinitas/releases/tag/v0.0.2): released on monday february 19th 2018, adds notes and max patches for korg volca beats and korg volca kick.
 * [v0.0.1](https://github.com/montoyamoraga/maquinitas/releases/tag/v0.0.1): max patches for roland tr-505 and critter and guitari septavox, released on saturday february 17th 2018 at babycastles, nyc for frequency sweep #2.
 
