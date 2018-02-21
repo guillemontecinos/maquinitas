@@ -8,12 +8,13 @@ maquinitas is a project by [aarón montoya-moraga](http://montoyamoraga.io/).
 
 ## releases
 
+* [v0.0.3](https://github.com/montoyamoraga/maquinitas/releases/tag/v0.0.3): released on wednesday february 21sth 2018, adds notes and max patches for roland sh-01a. now is bundled for distribution as max package.
 * [v0.0.2](https://github.com/montoyamoraga/maquinitas/releases/tag/v0.0.2): released on monday february 19th 2018, adds notes and max patches for korg volca beats and korg volca kick.
 * [v0.0.1](https://github.com/montoyamoraga/maquinitas/releases/tag/v0.0.1): max patches for roland tr-505 and critter and guitari septavox, released on saturday february 17th 2018 at babycastles, nyc for frequency sweep #2.
 
 ## contents of this repository
 
-* [max-patches](https://github.com/montoyamoraga/maquinitas/tree/gh-pages/max-patches): max patches to interface with the instruments.
+* [maquinitas-max](https://github.com/montoyamoraga/maquinitas/tree/gh-pages/maquinitas-max): maquinitas library as a max package
 
 * [notes](https://github.com/montoyamoraga/maquinitas/tree/gh-pages/notes): notes for all the instruments.
 
@@ -24,6 +25,7 @@ maquinitas is a project by [aarón montoya-moraga](http://montoyamoraga.io/).
 * [critter and guitari septavox](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/critter-and-guitari-septavox.md)
 * [korg volca beats](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/korg-volca-beats.md)
 * [korg volca kick](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/korg-volca-kick.md)
+* [roland sh-01a](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/roland-tr-505.md)
 * [roland tr-505](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/roland-tr-505.md)
 
 ## future additions to the library
