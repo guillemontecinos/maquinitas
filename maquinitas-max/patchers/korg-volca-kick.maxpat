@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 391.0, -1310.0, 1003.0, 833.0 ],
+		"rect" : [ 391.0, -1001.0, 1003.0, 833.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -92,7 +92,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 534.0, 194.0, 95.0, 141.0 ],
-					"presentation_rect" : [ 623.0, 103.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "pulse colour\npulse level\namp attack\namp decay\ndrive\ntone\nresonator pitch\nresonator bend\nresonator time\naccent"
 				}
@@ -184,7 +183,6 @@
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 503.0, 351.0, 20.0, 140.0 ],
-					"presentation_rect" : [ 843.0, 398.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -197,7 +195,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 503.0, 502.0, 41.0, 22.0 ],
-					"presentation_rect" : [ 843.0, 549.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "$1 43"
 				}
@@ -212,7 +209,6 @@
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 629.0, 351.0, 20.0, 140.0 ],
-					"presentation_rect" : [ 787.0, 401.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -225,7 +221,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 629.0, 502.0, 41.0, 22.0 ],
-					"presentation_rect" : [ 787.0, 552.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "$1 46"
 				}
@@ -802,13 +797,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-1",
-					"linecount" : 5,
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 14.0, 7.0, 155.0, 74.0 ],
+					"patching_rect" : [ 14.0, 7.0, 89.0, 33.0 ],
 					"style" : "",
-					"text" : "maquinitas\nby aaron montoya-moraga\nkorg volca kick\nfebruary 2018\nv0.0.2"
+					"text" : "maquinitas\nkorg volca kick"
 				}
 
 			}

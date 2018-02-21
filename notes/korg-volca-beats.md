@@ -34,9 +34,6 @@ factory default settings are marked with an asterisk *
 
 the volca beats can be controlled via midi, simply connect the midi output of an external midi device to the midi in jack of the volca kick. the midi messages that can be received by the volca beats are listed in its midi implementation chart.
 
-BLABLABLA
-
-
 midi implementation chart
 
 |function                   |transmitted   |recognized    |remarks            |

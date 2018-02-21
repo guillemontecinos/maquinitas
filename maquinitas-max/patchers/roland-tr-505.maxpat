@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ -469.0, -1310.0, 757.0, 649.0 ],
+		"rect" : [ -152.0, -1001.0, 757.0, 649.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -849,13 +849,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-1",
-					"linecount" : 5,
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 14.0, 7.0, 155.0, 74.0 ],
+					"patching_rect" : [ 14.0, 7.0, 79.0, 33.0 ],
 					"style" : "",
-					"text" : "maquinitas\nby aaron montoya-moraga\nroland tr-505\nfebruary 2018\nv0.0.2"
+					"text" : "maquinitas\nroland tr-505"
 				}
 
 			}

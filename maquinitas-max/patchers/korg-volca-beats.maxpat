@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ -347.0, -1227.0, 1003.0, 833.0 ],
+		"rect" : [ -152.0, -1001.0, 1003.0, 833.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -57,7 +57,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 44.5, 111.0, 47.0, 100.0 ],
-					"presentation_rect" : [ 801.0, 424.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "kick\nsnare\nclap\ncl hat\nlo tom\nop hat\nhi tom"
 				}
@@ -96,7 +95,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 364.0, 133.0, 104.0, 87.0 ],
-					"presentation_rect" : [ 687.0, 181.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "stutter time\nstutter depth\ntom decay\nclosed hat decay\nopen hat decay\nhat grain"
 				}
@@ -110,7 +108,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 335.0, 133.0, 27.0, 87.0 ],
-					"presentation_rect" : [ 658.0, 181.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "54\n55\n56\n57\n58\n59\n"
 				}
@@ -124,7 +121,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 364.0, 73.0, 111.0, 60.0 ],
-					"presentation_rect" : [ 689.0, 107.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "pcm speed clap\npcm speed claves\npcm speed agogo\npcm speed crash"
 				}
@@ -138,7 +134,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 335.0, 73.0, 27.0, 60.0 ],
-					"presentation_rect" : [ 658.0, 107.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "50\n51\n52\n53"
 				}
@@ -764,13 +759,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-1",
-					"linecount" : 5,
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 14.0, 7.0, 155.0, 74.0 ],
+					"patching_rect" : [ 14.0, 7.0, 98.0, 33.0 ],
 					"style" : "",
-					"text" : "maquinitas\nby aaron montoya-moraga\nkorg volca beats\nfebruary 2018\nv0.0.2"
+					"text" : "maquinitas\nkorg volca beats"
 				}
 
 			}
