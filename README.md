@@ -70,7 +70,17 @@ maquinitas is a project by [aarón montoya-moraga](http://montoyamoraga.io/).
 * mfb tanzmaus
 * molten voltage
 * moog dfam
+* moog little phatty stage ii
+* moog mf-105m midi murf
+* moog minimoog voyager
+* moog minimoog voyager xl
+* moog minitaur
 * moog mother 32
+* moog slim phatty
+* moog sub 37
+* moog subsequent 37
+* moog subsequent 37 cv
+* moog sub phatty
 * mutable instruments yarns
 * nord drum
 * nord drum 2
@@ -88,6 +98,8 @@ maquinitas is a project by [aarón montoya-moraga](http://montoyamoraga.io/).
 * strymon mobius
 * strymon timeline
 * teenage engineering op-1
+* waldorf rocket
+* waldorf streichfett
 
 ## license
 
