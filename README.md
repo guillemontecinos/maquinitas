@@ -4,11 +4,13 @@
 
 maquinitas is a software library for controlling hardware instruments via midi.
 
+
+
 maquinitas is a project by [aarón montoya-moraga](http://montoyamoraga.io/).
 
 ## releases
 
-* [v0.0.5](https://github.com/montoyamoraga/maquinitas/releases/tag/v0.0.5): released on saturday february 24th 2018, adds notes and max patches for critter and guitari bolsa bass.
+* [v0.0.5](https://github.com/montoyamoraga/maquinitas/releases/tag/v0.0.5): released on saturday february 24th 2018, adds notes and max patches for critter and guitari bolsa bass. it also includes placeholder files for both max for live and chuck versions of the library.
 * [v0.0.4](https://github.com/montoyamoraga/maquinitas/releases/tag/v0.0.4): released on thursday february 22nd 2018, adds notes and max patches for roland tr-08.
 * [v0.0.3](https://github.com/montoyamoraga/maquinitas/releases/tag/v0.0.3): released on wednesday february 21st 2018, adds notes and max patches for roland sh-01a. the library is bundled for distribution as max package.
 * [v0.0.2](https://github.com/montoyamoraga/maquinitas/releases/tag/v0.0.2): released on monday february 19th 2018, adds notes and max patches for korg volca beats and korg volca kick.
