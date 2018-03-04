@@ -8,6 +8,7 @@ maquinitas is a project by [aarón montoya-moraga](http://montoyamoraga.io/).
 
 ## releases
 
+* [v0.0.5](https://github.com/montoyamoraga/maquinitas/releases/tag/v0.0.5): released on saturday march 03rd 2018, adds notes and max patches for alesis sr-16 and moog minitaur.
 * [v0.0.4](https://github.com/montoyamoraga/maquinitas/releases/tag/v0.0.4): released on thursday february 22nd 2018, adds notes and max patches for roland tr-08.
 * [v0.0.3](https://github.com/montoyamoraga/maquinitas/releases/tag/v0.0.3): released on wednesday february 21st 2018, adds notes and max patches for roland sh-01a. the library is bundled for distribution as max package.
 * [v0.0.2](https://github.com/montoyamoraga/maquinitas/releases/tag/v0.0.2): released on monday february 19th 2018, adds notes and max patches for korg volca beats and korg volca kick.
@@ -23,16 +24,20 @@ maquinitas is a project by [aarón montoya-moraga](http://montoyamoraga.io/).
 
 ## instruments
 
+
+these instruments are currently supported:
+
+* [alesis sr-16](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/alesis-sr-16.md)
 * [critter and guitari septavox](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/critter-and-guitari-septavox.md)
 * [korg volca beats](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/korg-volca-beats.md)
 * [korg volca kick](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/korg-volca-kick.md)
+* [moog minitaur](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/moog-minitaur.md)
 * [roland sh-01a](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/roland-tr-505.md)
 * [roland tr-08](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/roland-tr-08.md)
 * [roland tr-505](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/roland-tr-505.md)
 
-## future additions to the library
+these instruments will be supported in the future:
 
-* alesis sr-16
 * alesis sr-18
 * arturia drumbrute
 * boss dr-3
@@ -61,6 +66,19 @@ maquinitas is a project by [aarón montoya-moraga](http://montoyamoraga.io/).
 * mfb tanzbär
 * mfb tanzmaus
 * moog dfam
+* moog little phatty stage ii
+* moog mf-104m super delay
+* moog mf-105m midi murf
+* moog mf-108m cluster flux
+* moog minimoog voyager performer
+* moog minimoog voyager rack mount
+* moog minimoog voyager xl
+* moog mother 32
+* moog slim phatty
+* moog sub phatty
+* moog sub 37
+* moog subsequent 37
+* moog subsequent 37 cv
 * nord drum
 * nord drum 2
 * nord drum 3p
