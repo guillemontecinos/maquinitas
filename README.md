@@ -4,8 +4,6 @@
 
 maquinitas is a software library for controlling hardware instruments via midi.
 
-
-
 maquinitas is a project by [aarón montoya-moraga](http://montoyamoraga.io/).
 
 ## releases
@@ -18,7 +16,11 @@ maquinitas is a project by [aarón montoya-moraga](http://montoyamoraga.io/).
 
 ## contents of this repository
 
-* [maquinitas-max](https://github.com/montoyamoraga/maquinitas/tree/gh-pages/maquinitas-max): maquinitas library as a max package
+* [maquinitas-chuck](https://github.com/montoyamoraga/maquinitas/tree/gh-pages/maquinitas-m4l): chuck flavor of the maquinitas library.
+
+* [maquinitas-m4l](https://github.com/montoyamoraga/maquinitas/tree/gh-pages/maquinitas-m4l): max for live flavor of the maquinitas library.
+
+* [maquinitas-max](https://github.com/montoyamoraga/maquinitas/tree/gh-pages/maquinitas-max): max flavor of the maquinitas library.
 
 * [notes](https://github.com/montoyamoraga/maquinitas/tree/gh-pages/notes): notes for all the instruments.
 
