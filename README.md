@@ -8,7 +8,7 @@ maquinitas is a project by [aarón montoya-moraga](http://montoyamoraga.io/).
 
 ## releases
 
-* [v0.0.6](https://github.com/montoyamoraga/maquinitas/releases/tag/v0.0.6): released on saturday march 03rd 2018, adds notes and max patches for alesis sr-16 moog minitaur. it also includes placeholder files for both max for live and chuck flavors of the library.
+* [v0.0.6](https://github.com/montoyamoraga/maquinitas/releases/tag/v0.0.6): released on saturday march 03rd 2018, adds notes and max patches for alesis sr-16 and moog minitaur. it also includes placeholder files for both max for live and chuck flavors of the library.
 
 * [v0.0.5](https://github.com/montoyamoraga/maquinitas/releases/tag/v0.0.5): released on saturday february 24th 2018, adds notes and max patches for critter and guitari bolsa bass.
 * [v0.0.4](https://github.com/montoyamoraga/maquinitas/releases/tag/v0.0.4): released on thursday february 22nd 2018, adds notes and max patches for roland tr-08.
