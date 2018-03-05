@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
@@ -38,20 +38,51 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-1",
-					"linecount" : 2,
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 45.0, 100.0, 68.0, 22.0 ],
+					"style" : "",
+					"text" : "bpm-to-ms"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-3",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 14.0, 7.0, 151.0, 33.0 ],
+					"patching_rect" : [ 45.0, 71.0, 47.0, 20.0 ],
 					"style" : "",
-					"text" : "maquinitas-start\nby aaron montoya-moraga"
+					"text" : "utilities"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 14.0, 7.0, 96.0, 20.0 ],
+					"style" : "",
+					"text" : "maquinitas-start"
 				}
 
 			}
  ],
 		"lines" : [  ],
-		"dependency_cache" : [  ],
+		"dependency_cache" : [ 			{
+				"name" : "bpm-to-ms.maxpat",
+				"bootpath" : "~/github/montoyamoraga/maquinitas/maquinitas-max/patchers",
+				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
 		"autosave" : 0
 	}
 
