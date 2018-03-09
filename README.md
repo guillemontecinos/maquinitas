@@ -9,7 +9,6 @@ maquinitas is a project by [aarón montoya-moraga](http://montoyamoraga.io/).
 ## releases
 
 * [v0.0.6](https://github.com/montoyamoraga/maquinitas/releases/tag/v0.0.6): released on saturday march 03rd 2018, adds notes and max patches for alesis sr-16 and moog minitaur. it also includes placeholder files for both max for live and chuck flavors of the library.
-
 * [v0.0.5](https://github.com/montoyamoraga/maquinitas/releases/tag/v0.0.5): released on saturday february 24th 2018, adds notes and max patches for critter and guitari bolsa bass.
 * [v0.0.4](https://github.com/montoyamoraga/maquinitas/releases/tag/v0.0.4): released on thursday february 22nd 2018, adds notes and max patches for roland tr-08.
 * [v0.0.3](https://github.com/montoyamoraga/maquinitas/releases/tag/v0.0.3): released on wednesday february 21st 2018, adds notes and max patches for roland sh-01a. the library is bundled for distribution as max package.
@@ -33,7 +32,9 @@ maquinitas is a project by [aarón montoya-moraga](http://montoyamoraga.io/).
 * [critter and guitari bolsa bass](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/critter-and-guitari-bolsa-bass.md)
 * [critter and guitari septavox](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/critter-and-guitari-septavox.md)
 * [korg volca beats](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/korg-volca-beats.md)
+* [korg volca fm](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/korg-volca-fm.md)
 * [korg volca kick](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/korg-volca-kick.md)
+* [moog minitaur](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/moog-minitaur.md)
 * [roland sh-01a](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/roland-tr-505.md)
 * [roland tr-08](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/roland-tr-08.md)
 * [roland tr-505](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/roland-tr-505.md)
@@ -80,7 +81,6 @@ maquinitas is a project by [aarón montoya-moraga](http://montoyamoraga.io/).
 * moog mf-105m midi murf
 * moog minimoog voyager
 * moog minimoog voyager xl
-* moog minitaur
 * moog mother 32
 * moog slim phatty
 * moog sub 37
