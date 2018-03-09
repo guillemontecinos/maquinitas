@@ -8,9 +8,9 @@ in addition to the basic fm sound parameters, there are also a number of volca f
 
 sound files (sys-ex/syx) created on the yamaha dx-7 can be converted and loaded into the volca fm. sounds created on the volca fm can be exported and shared with another volca fm.
 
-in addition, the volca fm also includes a built-in step sequencer, motion sequencer, and an arpeggiator -plus various voice modes- that can all add movemennt, depth, and expression to your volca fm sounds.
+in addition, the volca fm also includes a built-in step sequencer, motion sequencer, and an arpeggiator -plus various voice modes- that can all add movement, depth, and expression to your volca fm sounds.
 
-fm (frequency modulation) is based on synthesis elements known as operators. the volca fm sound engine uses six operators. operators can function as either modulators or carriers; modulating operators apply modulation to audio-source carrier operators interact is called an algorithm; the volca fm provides 32 distinct fm algorhithms.
+fm (frequency modulation) is based on synthesis elements known as operators. the volca fm sound engine uses six operators. operators can function as either modulators or carriers; modulating operators apply modulation to audio-source carrier operators interact is called an algorithm; the volca fm provides 32 distinct fm algorithms.
 
 in the edit mode, the parameters required for the fm sound source, such as the lfo waveform and speed as well as the eg level and rate, can be set for each operator.
 
@@ -30,7 +30,7 @@ edit button: use this button to toggle between the edit and play modes. edit mod
 
 ### specifying global parameter settings
 
-setting the midi channnel:
+setting the midi channel:
 * while holding down the memory button, turn the volca fm on.
 * keyboard buttons 1 to 16 correspond to the midi channels 1 to 16. press the button that corresponds to the desired channel, and the led below the keyboard button will light up.
 
