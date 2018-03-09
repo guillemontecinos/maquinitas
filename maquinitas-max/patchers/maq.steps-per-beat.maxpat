@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -43,7 +43,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 174.0, 311.0, 73.0, 22.0 ],
+					"patching_rect" : [ 147.0, 279.0, 73.0, 22.0 ],
 					"style" : "",
 					"text" : "/ 1."
 				}
@@ -56,7 +56,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 228.0, 247.0, 72.0, 22.0 ],
+					"patching_rect" : [ 201.0, 215.0, 72.0, 22.0 ],
 					"style" : "",
 					"text" : "loadmess 1"
 				}
@@ -68,7 +68,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 287.0, 275.0, 87.0, 20.0 ],
+					"patching_rect" : [ 260.0, 243.0, 87.0, 20.0 ],
 					"style" : "",
 					"text" : "steps per beat"
 				}
@@ -83,7 +83,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 228.0, 275.0, 50.0, 22.0 ],
+					"patching_rect" : [ 201.0, 243.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -95,7 +95,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 77.0, 347.0, 116.0, 22.0 ],
+					"patching_rect" : [ 50.0, 315.0, 116.0, 22.0 ],
 					"style" : "",
 					"text" : "metro 100"
 				}
@@ -109,7 +109,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 77.0, 310.0, 24.0, 24.0 ],
+					"patching_rect" : [ 50.0, 278.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -121,7 +121,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 125.5, 271.0, 29.5, 22.0 ],
+					"patching_rect" : [ 98.5, 239.0, 29.5, 22.0 ],
 					"style" : "",
 					"text" : "0"
 				}
@@ -134,7 +134,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 77.0, 271.0, 29.5, 22.0 ],
+					"patching_rect" : [ 50.0, 239.0, 29.5, 22.0 ],
 					"style" : "",
 					"text" : "1"
 				}
@@ -147,7 +147,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "float" ],
-					"patching_rect" : [ 77.0, 218.0, 116.0, 22.0 ],
+					"patching_rect" : [ 50.0, 186.0, 116.0, 22.0 ],
 					"style" : "",
 					"text" : "t b b f"
 				}
@@ -162,7 +162,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 77.0, 183.0, 50.0, 22.0 ],
+					"patching_rect" : [ 50.0, 151.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -173,7 +173,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 129.0, 183.0, 123.0, 20.0 ],
+					"patching_rect" : [ 102.0, 151.0, 123.0, 20.0 ],
 					"style" : "",
 					"text" : "milliseconds per beat"
 				}
@@ -188,7 +188,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 77.0, 126.0, 50.0, 22.0 ],
+					"patching_rect" : [ 50.0, 94.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -199,7 +199,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 129.0, 126.0, 100.0, 20.0 ],
+					"patching_rect" : [ 102.0, 94.0, 100.0, 20.0 ],
 					"style" : "",
 					"text" : "beats per minute"
 				}
@@ -212,21 +212,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 77.0, 153.0, 68.0, 22.0 ],
+					"patching_rect" : [ 50.0, 121.0, 95.0, 22.0 ],
 					"style" : "",
-					"text" : "bpm-to-ms"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-3",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 14.0, 42.0, 87.0, 20.0 ],
-					"style" : "",
-					"text" : "steps per beat"
+					"text" : "maq.bpm-to-ms"
 				}
 
 			}
@@ -237,9 +225,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 14.0, 7.0, 72.0, 33.0 ],
+					"patching_rect" : [ 14.0, 7.0, 115.0, 33.0 ],
 					"style" : "",
-					"text" : "maquinitas\nbpm-to-ms"
+					"text" : "maquinitas\nmaq.steps-per-beat"
 				}
 
 			}
@@ -330,7 +318,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "bpm-to-ms.maxpat",
+				"name" : "maq.bpm-to-ms.maxpat",
 				"bootpath" : "~/github/montoyamoraga/maquinitas/maquinitas-max/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
