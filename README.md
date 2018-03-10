@@ -79,7 +79,6 @@ maquinitas is a project by [aarón montoya-moraga](http://montoyamoraga.io/).
 * korg monologue
 * korg prologue
 * korg volca bass
-* korg volca fm
 * korg volca keys
 * korg volca sample
 * mfb tanzbär lite
