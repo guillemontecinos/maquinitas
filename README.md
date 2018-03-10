@@ -54,8 +54,17 @@ maquinitas is a project by [aarón montoya-moraga](http://montoyamoraga.io/).
 * digitech whammy 5
 * digitech whammy bass
 * digitech whammy dt
+* electro-harmonix 45000
+* electro-harmonix 95000
+* electro-harmonix hog 2
+* elektron analog four mki
+* elektron analog four mkii
+* elektron analog heat
+* elektron analog keys
 * elektron analog rytm mki
 * elektron analog rytm mkii
+* elektron digitakt
+* elektron digitone
 * eventide h9
 * eventide modfactor
 * eventide pitchfactor
