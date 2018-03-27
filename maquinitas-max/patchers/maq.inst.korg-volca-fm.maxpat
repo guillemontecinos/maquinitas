@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 518.0, 79.0, 866.0, 583.0 ],
+		"rect" : [ 518.0, 79.0, 512.0, 583.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -85,7 +85,7 @@
 					"id" : "obj-47",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "maq.korg-volca-fm-midi-cc.maxpat",
+					"name" : "maq.inst.korg-volca-fm-midi-cc.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
@@ -104,7 +104,6 @@
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 461.0, 305.25, 33.0, 48.0 ],
-					"presentation_rect" : [ 538.0, 146.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -145,7 +144,7 @@
 					"id" : "obj-8",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "maq.korg-volca-fm-midi-cc.maxpat",
+					"name" : "maq.inst.korg-volca-fm-midi-cc.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
@@ -286,9 +285,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 141.5, 241.0, 132.0, 22.0 ],
+					"patching_rect" : [ 141.5, 241.0, 111.0, 22.0 ],
 					"style" : "",
-					"text" : "maq.probability"
+					"text" : "maq.util.probability"
 				}
 
 			}
@@ -375,9 +374,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 33.5, 363.0, 128.0, 22.0 ],
+					"patching_rect" : [ 33.5, 363.0, 147.0, 22.0 ],
 					"style" : "",
-					"text" : "maq.random-modes 2"
+					"text" : "maq.util.random-modes 2"
 				}
 
 			}
@@ -415,9 +414,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 142.0, 45.0, 143.0, 22.0 ],
+					"patching_rect" : [ 142.0, 45.0, 162.0, 22.0 ],
 					"style" : "",
-					"text" : "maq.bpm-to-ms-per-beat"
+					"text" : "maq.util.bpm-to-ms-per-beat"
 				}
 
 			}
@@ -619,9 +618,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 14.0, 7.0, 110.0, 33.0 ],
+					"patching_rect" : [ 14.0, 7.0, 132.0, 33.0 ],
 					"style" : "",
-					"text" : "maquinitas\nmaq.korg-volca-fm"
+					"text" : "maquinitas\nmaq.inst.korg-volca-fm"
 				}
 
 			}
@@ -875,28 +874,28 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "maq.bpm-to-ms-per-beat.maxpat",
+				"name" : "maq.util.bpm-to-ms-per-beat.maxpat",
 				"bootpath" : "~/github/montoyamoraga/maquinitas/maquinitas-max/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "maq.random-modes.maxpat",
+				"name" : "maq.util.random-modes.maxpat",
 				"bootpath" : "~/github/montoyamoraga/maquinitas/maquinitas-max/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "maq.probability.maxpat",
+				"name" : "maq.util.probability.maxpat",
 				"bootpath" : "~/github/montoyamoraga/maquinitas/maquinitas-max/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "maq.korg-volca-fm-midi-cc.maxpat",
+				"name" : "maq.inst.korg-volca-fm-midi-cc.maxpat",
 				"bootpath" : "~/github/montoyamoraga/maquinitas/maquinitas-max/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

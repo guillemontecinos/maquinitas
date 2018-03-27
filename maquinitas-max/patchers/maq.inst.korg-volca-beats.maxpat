@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 140.0, 115.0, 1263.0, 781.0 ],
+		"rect" : [ 523.0, 235.0, 1263.0, 781.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -301,9 +301,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 399.200012, 43.59996, 144.0, 22.0 ],
+					"patching_rect" : [ 399.200012, 43.59996, 162.0, 22.0 ],
 					"style" : "",
-					"text" : "maq.bpm-to-ms-per-beat"
+					"text" : "maq.util.bpm-to-ms-per-beat"
 				}
 
 			}
@@ -635,7 +635,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 276.0, 78.0, 104.0, 87.0 ],
+					"patching_rect" : [ 170.5, 247.0, 104.0, 87.0 ],
 					"style" : "",
 					"text" : "stutter time\nstutter depth\ntom decay\nclosed hat decay\nopen hat decay\nhat grain"
 				}
@@ -648,7 +648,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 247.0, 78.0, 27.0, 87.0 ],
+					"patching_rect" : [ 141.5, 247.0, 27.0, 87.0 ],
 					"style" : "",
 					"text" : "54\n55\n56\n57\n58\n59\n"
 				}
@@ -661,7 +661,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 276.0, 18.0, 111.0, 60.0 ],
+					"patching_rect" : [ 170.5, 187.0, 111.0, 60.0 ],
 					"style" : "",
 					"text" : "pcm speed clap\npcm speed claves\npcm speed agogo\npcm speed crash"
 				}
@@ -674,7 +674,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 247.0, 18.0, 27.0, 60.0 ],
+					"patching_rect" : [ 141.5, 187.0, 27.0, 60.0 ],
 					"style" : "",
 					"text" : "50\n51\n52\n53"
 				}
@@ -710,7 +710,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 117.0, 2.0, 89.0, 20.0 ],
+					"patching_rect" : [ 11.5, 171.0, 89.0, 20.0 ],
 					"style" : "",
 					"text" : "control change"
 				}
@@ -723,7 +723,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 146.0, 24.0, 95.0, 141.0 ],
+					"patching_rect" : [ 40.5, 193.0, 95.0, 141.0 ],
 					"style" : "",
 					"text" : "level kick\nlevel snare\nlevel lo tom\nlevel hi tom\nlevel cl hat\nlevel op hat\nlevel clap\nlevel claves\nlevel agogo\nlevel crash"
 				}
@@ -800,7 +800,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 117.0, 24.0, 27.0, 141.0 ],
+					"patching_rect" : [ 11.5, 193.0, 27.0, 141.0 ],
 					"style" : "",
 					"text" : "40\n41\n42\n43\n44\n45\n46\n47\n48\n49"
 				}
@@ -837,9 +837,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 14.0, 7.0, 98.0, 33.0 ],
+					"patching_rect" : [ 14.0, 7.0, 148.0, 33.0 ],
 					"style" : "",
-					"text" : "maquinitas\nkorg volca beats"
+					"text" : "maquinitas\nmaq.inst.korg-volca-beats"
 				}
 
 			}
@@ -1161,7 +1161,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "maq.bpm-to-ms-per-beat.maxpat",
+				"name" : "maq.util.bpm-to-ms-per-beat.maxpat",
 				"bootpath" : "~/github/montoyamoraga/maquinitas/maquinitas-max/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

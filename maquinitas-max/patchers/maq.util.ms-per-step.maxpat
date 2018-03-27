@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 345.0, 127.0, 334.0, 377.0 ],
+		"rect" : [ 117.0, 308.0, 334.0, 377.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -43,7 +43,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "float" ],
-					"patching_rect" : [ 154.0, 167.0, 31.0, 22.0 ],
+					"patching_rect" : [ 188.0, 141.5, 31.0, 22.0 ],
 					"style" : "",
 					"text" : "t b f"
 				}
@@ -55,7 +55,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 68.0, 230.0, 123.0, 20.0 ],
+					"patching_rect" : [ 68.0, 202.0, 123.0, 20.0 ],
 					"style" : "",
 					"text" : "milliseconds per step"
 				}
@@ -65,11 +65,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-11",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 16.0, 261.0, 30.0, 30.0 ],
+					"patching_rect" : [ 16.0, 231.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -83,7 +83,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 16.0, 230.0, 50.0, 22.0 ],
+					"patching_rect" : [ 16.0, 202.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -92,12 +92,12 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-3",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 154.0, 89.5, 30.0, 30.0 ],
+					"patching_rect" : [ 188.0, 64.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -106,7 +106,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-2",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -123,7 +123,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 16.0, 201.0, 169.0, 22.0 ],
+					"patching_rect" : [ 16.0, 175.0, 203.0, 22.0 ],
 					"style" : "",
 					"text" : "/ 1."
 				}
@@ -136,7 +136,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 195.0, 93.5, 72.0, 22.0 ],
+					"patching_rect" : [ 229.0, 68.0, 72.0, 22.0 ],
 					"style" : "",
 					"text" : "loadmess 1"
 				}
@@ -148,7 +148,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 206.0, 137.0, 87.0, 20.0 ],
+					"patching_rect" : [ 240.0, 111.5, 87.0, 20.0 ],
 					"style" : "",
 					"text" : "steps per beat"
 				}
@@ -163,7 +163,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 154.0, 136.0, 50.0, 22.0 ],
+					"patching_rect" : [ 188.0, 110.5, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -229,9 +229,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 16.0, 106.0, 95.0, 22.0 ],
+					"patching_rect" : [ 16.0, 106.0, 162.0, 22.0 ],
 					"style" : "",
-					"text" : "maq.bpm-to-ms"
+					"text" : "maq.util.bpm-to-ms-per-beat"
 				}
 
 			}
@@ -242,9 +242,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 14.0, 7.0, 101.0, 33.0 ],
+					"patching_rect" : [ 14.0, 7.0, 120.0, 33.0 ],
 					"style" : "",
-					"text" : "maquinitas\nmaq.ms-per-step"
+					"text" : "maquinitas\nmaq.util.ms-per-step"
 				}
 
 			}
@@ -326,7 +326,16 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "maq.util.bpm-to-ms-per-beat.maxpat",
+				"bootpath" : "~/github/montoyamoraga/maquinitas/maquinitas-max/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

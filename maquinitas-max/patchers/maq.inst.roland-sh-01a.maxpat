@@ -43,9 +43,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 178.0, 40.0, 95.0, 22.0 ],
+					"patching_rect" : [ 178.0, 40.0, 162.0, 22.0 ],
 					"style" : "",
-					"text" : "maq.bpm-to-ms"
+					"text" : "maq.util.bpm-to-ms-per-beat"
 				}
 
 			}
@@ -232,7 +232,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 98.0, 104.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -266,7 +266,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 219.5, 334.5, 133.0, 47.0 ],
+									"patching_rect" : [ 184.5, 242.5, 133.0, 47.0 ],
 									"style" : "",
 									"text" : "chord voice 2 key shift\nchord voice 3 key shift\nchord voice 4 key shift"
 								}
@@ -279,7 +279,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 193.5, 334.5, 27.0, 47.0 ],
+									"patching_rect" : [ 158.5, 242.5, 27.0, 47.0 ],
 									"style" : "",
 									"text" : "85\n86\n87"
 								}
@@ -292,7 +292,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 219.5, 155.0, 103.0, 181.0 ],
+									"patching_rect" : [ 184.5, 63.0, 103.0, 181.0 ],
 									"style" : "",
 									"text" : "vcf resonance\nenv release\nenv attack\nvcf cutoff\nenv decay\ntune\ntranspose sw\nnoise mode\nlfo mode\nassign mode\nchord voice 2 sw\nchord voice 3 sw\nchord voice 4 sw"
 								}
@@ -305,7 +305,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 193.5, 155.0, 27.0, 181.0 ],
+									"patching_rect" : [ 158.5, 63.0, 27.0, 181.0 ],
 									"style" : "",
 									"text" : "71\n72\n73\n74\n75\n76\n77\n78\n79\n80\n81\n82\n83"
 								}
@@ -318,7 +318,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 219.5, 122.0, 71.0, 33.0 ],
+									"patching_rect" : [ 184.5, 30.0, 71.0, 33.0 ],
 									"style" : "",
 									"text" : "hold\nportamento"
 								}
@@ -331,7 +331,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 193.5, 122.0, 27.0, 33.0 ],
+									"patching_rect" : [ 158.5, 30.0, 27.0, 33.0 ],
 									"style" : "",
 									"text" : "64\n65"
 								}
@@ -344,7 +344,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 76.0, 168.0, 105.0, 288.0 ],
+									"patching_rect" : [ 41.0, 76.0, 105.0, 288.0 ],
 									"style" : "",
 									"text" : "expression pedal\nlfo wave form\nvco mod depth\nvco range\nvco pulse width\nvco pwm source\nvco mod sens\nvco bend depth\nvco pwm level\nvco saw level\nvco sub level\nvco noise level\nvco env depth\nvcf env depth\nvcf mod depth\nvcf key follow\nvcf bend depth\nvca env sw\nvca env mode\nenv sustain\nportament mod"
 								}
@@ -357,7 +357,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 168.0, 27.0, 288.0 ],
+									"patching_rect" : [ 15.0, 76.0, 27.0, 288.0 ],
 									"style" : "",
 									"text" : "11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n"
 								}
@@ -369,7 +369,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 100.0, 89.0, 20.0 ],
+									"patching_rect" : [ 15.0, 8.0, 89.0, 20.0 ],
 									"style" : "",
 									"text" : "control change"
 								}
@@ -382,7 +382,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 76.0, 122.0, 97.0, 47.0 ],
+									"patching_rect" : [ 41.0, 30.0, 97.0, 47.0 ],
 									"style" : "",
 									"text" : "modulation\nlfo rate\nportamento time"
 								}
@@ -395,7 +395,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 122.0, 24.0, 47.0 ],
+									"patching_rect" : [ 15.0, 30.0, 24.0, 47.0 ],
 									"style" : "",
 									"text" : " 1\n 3\n 5"
 								}
@@ -405,7 +405,7 @@
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 14.0, 44.0, 138.0, 22.0 ],
+					"patching_rect" : [ 14.0, 44.0, 40.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -415,7 +415,7 @@
 					}
 ,
 					"style" : "",
-					"text" : "p roland-sh-01a-manual"
+					"text" : "p info"
 				}
 
 			}
@@ -2017,7 +2017,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "maq.bpm-to-ms.maxpat",
+				"name" : "maq.util.bpm-to-ms-per-beat.maxpat",
 				"bootpath" : "~/github/montoyamoraga/maquinitas/maquinitas-max/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

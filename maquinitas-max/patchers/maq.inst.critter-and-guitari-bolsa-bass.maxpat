@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 720.0, 79.0, 665.0, 722.0 ],
+		"rect" : [ 303.0, 83.0, 665.0, 722.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -43,9 +43,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 131.0, 265.0, 95.0, 22.0 ],
+					"patching_rect" : [ 131.0, 264.0, 162.0, 22.0 ],
 					"style" : "",
-					"text" : "maq.bpm-to-ms"
+					"text" : "maq.util.bpm-to-ms-per-beat"
 				}
 
 			}
@@ -331,14 +331,92 @@
 			}
 , 			{
 				"box" : 				{
+					"id" : "obj-17",
+					"linecount" : 6,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 14.0, 77.0, 79.0, 87.0 ],
+					"style" : "",
+					"text" : "controls:\n\nknob 1\nknob 2\ntune knob\nvolume knob"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-12",
+					"linecount" : 13,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 488.5, 11.0, 119.0, 181.0 ],
+					"style" : "",
+					"text" : "knob 2\n\nramp start point\n\nramp start point\n\nresonance\n\nresonance\n\nindex of modulation\n\nfeedback"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-11",
+					"linecount" : 13,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 383.0, 11.0, 100.0, 181.0 ],
+					"style" : "",
+					"text" : "knob 1\n\nramp speed\n\nramp speed\n\ncutoff frequency\n\nenvelope time\n\nlfo rate\n\ndelay time"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"linecount" : 13,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 295.0, 11.0, 78.0, 181.0 ],
+					"style" : "",
+					"text" : "mode\n\ncircle ramp\n\nsaw ramp\n\nanalog style\n\nsweep filter\n\nfm pad\n\nbass delay"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"linecount" : 13,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 232.0, 11.0, 61.0, 181.0 ],
+					"style" : "",
+					"text" : "light\n\nred\n\nyellow\n\ngreen\n\nlight-blue\n\nblue\n\nmagenta"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 14.0, 42.0, 177.0, 33.0 ],
+					"style" : "",
+					"text" : "midi notes and messages \nsent and received on channel 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-1",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 14.0, 7.0, 72.0, 33.0 ],
+					"patching_rect" : [ 14.0, 7.0, 212.0, 33.0 ],
 					"style" : "",
-					"text" : "maquinitas\nalesis sr-16"
+					"text" : "maquinitas\nmaq.inst.critter-and-guitari-bolsa-bass"
 				}
 
 			}
@@ -487,7 +565,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "maq.bpm-to-ms.maxpat",
+				"name" : "maq.util.bpm-to-ms-per-beat.maxpat",
 				"bootpath" : "~/github/montoyamoraga/maquinitas/maquinitas-max/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

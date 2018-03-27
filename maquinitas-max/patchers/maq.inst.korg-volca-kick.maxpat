@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 219.0, 90.0, 704.0, 583.0 ],
+		"rect" : [ 639.0, 90.0, 704.0, 583.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -157,9 +157,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 152.0, 250.0, 132.0, 22.0 ],
+					"patching_rect" : [ 152.0, 250.0, 111.0, 22.0 ],
 					"style" : "",
-					"text" : "maq.probability"
+					"text" : "maq.util.probability"
 				}
 
 			}
@@ -246,9 +246,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 44.0, 372.0, 128.0, 22.0 ],
+					"patching_rect" : [ 44.0, 372.0, 147.0, 22.0 ],
 					"style" : "",
-					"text" : "maq.random-modes 2"
+					"text" : "maq.util.random-modes 2"
 				}
 
 			}
@@ -286,9 +286,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 152.5, 54.0, 95.0, 22.0 ],
+					"patching_rect" : [ 152.5, 54.0, 163.0, 22.0 ],
 					"style" : "",
-					"text" : "maq.bpm-to-ms"
+					"text" : "maq.util.bpm-to-ms-per-beat"
 				}
 
 			}
@@ -592,9 +592,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 14.0, 7.0, 117.0, 33.0 ],
+					"patching_rect" : [ 14.0, 7.0, 139.0, 33.0 ],
 					"style" : "",
-					"text" : "maquinitas\nmaq.korg-volca-kick"
+					"text" : "maquinitas\nmaq.inst.korg-volca-kick"
 				}
 
 			}
@@ -857,21 +857,21 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "maq.bpm-to-ms.maxpat",
-				"bootpath" : "~/github/montoyamoraga/project-teensy-max-midi-video",
-				"patcherrelativepath" : "../../../project-teensy-max-midi-video",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "maq.random-modes.maxpat",
+				"name" : "maq.util.bpm-to-ms-per-beat.maxpat",
 				"bootpath" : "~/github/montoyamoraga/maquinitas/maquinitas-max/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "maq.probability.maxpat",
+				"name" : "maq.util.random-modes.maxpat",
+				"bootpath" : "~/github/montoyamoraga/maquinitas/maquinitas-max/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "maq.util.probability.maxpat",
 				"bootpath" : "~/github/montoyamoraga/maquinitas/maquinitas-max/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

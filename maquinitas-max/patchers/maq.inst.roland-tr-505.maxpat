@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 74.0, 79.0, 757.0, 649.0 ],
+		"rect" : [ 269.0, 343.0, 757.0, 649.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -43,9 +43,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 315.5, 44.0, 96.0, 22.0 ],
+					"patching_rect" : [ 315.5, 44.0, 162.0, 22.0 ],
 					"style" : "",
-					"text" : "maq.bpm-to-ms"
+					"text" : "maq.util.bpm-to-ms-per-beat"
 				}
 
 			}
@@ -578,9 +578,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 14.0, 7.0, 79.0, 33.0 ],
+					"patching_rect" : [ 14.0, 7.0, 128.0, 33.0 ],
 					"style" : "",
-					"text" : "maquinitas\nroland tr-505"
+					"text" : "maquinitas\nmaq.inst.roland-tr-505"
 				}
 
 			}
@@ -841,7 +841,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "maq.bpm-to-ms.maxpat",
+				"name" : "maq.util.bpm-to-ms-per-beat.maxpat",
 				"bootpath" : "~/github/montoyamoraga/maquinitas/maquinitas-max/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
