@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 596.0, 83.0, 665.0, 722.0 ],
+		"rect" : [ 303.0, 83.0, 665.0, 722.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,14 +38,27 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 442.0, 291.0, 95.0, 22.0 ],
+					"style" : "",
+					"text" : "maq.bpm-to-ms"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-2",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 131.0, 264.0, 96.0, 22.0 ],
+					"patching_rect" : [ 131.0, 264.0, 143.0, 22.0 ],
 					"style" : "",
-					"text" : "maq.bpm-to-ms"
+					"text" : "maq.bpm-to-ms-per-beat"
 				}
 
 			}
@@ -336,7 +349,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 14.0, 94.0, 79.0, 87.0 ],
+					"patching_rect" : [ 14.0, 77.0, 79.0, 87.0 ],
 					"style" : "",
 					"text" : "controls:\n\nknob 1\nknob 2\ntune knob\nvolume knob"
 				}
@@ -401,7 +414,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 14.0, 49.0, 177.0, 33.0 ],
+					"patching_rect" : [ 14.0, 42.0, 177.0, 33.0 ],
 					"style" : "",
 					"text" : "midi notes and messages \nsent and received on channel 1"
 				}
@@ -565,9 +578,16 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "maq.bpm-to-ms.maxpat",
+				"name" : "maq.bpm-to-ms-per-beat.maxpat",
 				"bootpath" : "~/github/montoyamoraga/maquinitas/maquinitas-max/patchers",
 				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "maq.bpm-to-ms.maxpat",
+				"bootpath" : "~/github/montoyamoraga/project-teensy-max-midi-video",
+				"patcherrelativepath" : "../../../project-teensy-max-midi-video",
 				"type" : "JSON",
 				"implicit" : 1
 			}

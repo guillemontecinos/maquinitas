@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 146.0, 91.0, 533.0, 522.0 ],
+		"rect" : [ 219.0, 90.0, 704.0, 583.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -255,7 +255,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-23",
-					"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2", ",", "micro lite Port 1", ",", "micro lite Port 2", ",", "micro lite Port 3", ",", "micro lite Port 4", ",", "micro lite Port 5" ],
+					"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -592,9 +592,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 14.0, 7.0, 89.0, 33.0 ],
+					"patching_rect" : [ 14.0, 7.0, 117.0, 33.0 ],
 					"style" : "",
-					"text" : "maquinitas\nkorg volca kick"
+					"text" : "maquinitas\nmaq.korg-volca-kick"
 				}
 
 			}
@@ -858,8 +858,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "maq.bpm-to-ms.maxpat",
-				"bootpath" : "~/github/montoyamoraga/maquinitas/maquinitas-max/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/github/montoyamoraga/project-teensy-max-midi-video",
+				"patcherrelativepath" : "../../../project-teensy-max-midi-video",
 				"type" : "JSON",
 				"implicit" : 1
 			}

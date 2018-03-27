@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -227,9 +227,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 14.0, 7.0, 72.0, 33.0 ],
+					"patching_rect" : [ 14.0, 7.0, 143.0, 33.0 ],
 					"style" : "",
-					"text" : "maquinitas\nbpm-to-ms"
+					"text" : "maquinitas\nmaq.bpm-to-ms-per-beat"
 				}
 
 			}
