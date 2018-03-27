@@ -8,6 +8,7 @@ maquinitas is a project by [aarón montoya-moraga](http://montoyamoraga.io/).
 
 ## releases
 
+* [v0.0.8](https://github.com/montoyamoraga/maquinitas/releases/tag/v0.0.8): released on tuesday march 27th 2018, new structure of maquinitas - max.
 * [v0.0.7](https://github.com/montoyamoraga/maquinitas/releases/tag/v0.0.7): released on friday march 09th 2018, adds notes and max patches for korg volca fm. it also includes new abstractions: maq.bpm-to-ms, maq.ms-per-beat, maq.probability, maq.random-modes.
 * [v0.0.6](https://github.com/montoyamoraga/maquinitas/releases/tag/v0.0.6): released on saturday march 03rd 2018, adds notes and max patches for alesis sr-16 and moog minitaur. it also includes placeholder files for both max for live and chuck flavors of the library.
 * [v0.0.5](https://github.com/montoyamoraga/maquinitas/releases/tag/v0.0.5): released on saturday february 24th 2018, adds notes and max patches for critter and guitari bolsa bass.
@@ -27,6 +28,40 @@ maquinitas is a project by [aarón montoya-moraga](http://montoyamoraga.io/).
 * [notes](https://github.com/montoyamoraga/maquinitas/tree/gh-pages/notes): notes for all the instruments.
 
 * [releases](https://github.com/montoyamoraga/maquinitas/tree/gh-pages/releases): history of all of the past releases of the library.
+
+## maquinitas-chuck
+
+just started, stay tuned.
+
+## maquinitas-max
+
+there are two types of patches: maq.inst and maq.util.
+
+maq.inst patches are for operating particular hardware midi instruments.
+
+maq.util patches are utilities.
+
+list of available patches:
+
+* maq.inst.alesis-sr-16.maxpat
+* maq.inst.critter-and-guitari-bolsa-bass.maxpat
+* maq.inst.critter-and-guitari-septavox.maxpat
+* maq.inst.korg-volca-beats.maxpat
+* maq.inst.korg-volca-fm-midi-cc.maxpat
+* maq.inst.korg-volca-fm.maxpat
+* maq.inst.korg-volca-kick.maxpat
+* maq.inst.moog-minitaur.maxpat
+* maq.inst.roland-sh-01a.maxpat
+* maq.inst.roland-tr-08.maxpat
+* maq.inst.roland-tr-505.maxpat
+* maq.util.bpm-to-ms-per-beat.maxpat
+* maq.util.ms-per-step.maxpat
+* maq.util.probability.maxpat
+* maq.util.random-modes.maxpat
+
+## maquinitas-m4l
+
+just started, stay tuned.
 
 ## instruments
 
