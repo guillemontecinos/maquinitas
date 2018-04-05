@@ -8,7 +8,7 @@ maquinitas is a project by [aarón montoya-moraga](http://montoyamoraga.io/).
 
 ## releases
 
-* [v0.0.8](https://github.com/montoyamoraga/maquinitas/releases/tag/v0.0.8): released on tuesday march 27th 2018, new structure of maquinitas - max.
+* [v0.0.8](https://github.com/montoyamoraga/maquinitas/releases/tag/v0.0.8): released on wednesday april 04th 2018, new structure of maquinitas - max.
 * [v0.0.7](https://github.com/montoyamoraga/maquinitas/releases/tag/v0.0.7): released on friday march 09th 2018, adds notes and max patches for korg volca fm. it also includes new abstractions: maq.bpm-to-ms, maq.ms-per-beat, maq.probability, maq.random-modes.
 * [v0.0.6](https://github.com/montoyamoraga/maquinitas/releases/tag/v0.0.6): released on saturday march 03rd 2018, adds notes and max patches for alesis sr-16 and moog minitaur. it also includes placeholder files for both max for live and chuck flavors of the library.
 * [v0.0.5](https://github.com/montoyamoraga/maquinitas/releases/tag/v0.0.5): released on saturday february 24th 2018, adds notes and max patches for critter and guitari bolsa bass.
@@ -46,6 +46,8 @@ list of available patches:
 * maq.inst.alesis-sr-16.maxpat
 * maq.inst.critter-and-guitari-bolsa-bass.maxpat
 * maq.inst.critter-and-guitari-septavox.maxpat
+* maq.inst.korg-volca-beats-midi-cc.maxpat
+* maq.inst.korg-volca-beats-midi-note.maxpat
 * maq.inst.korg-volca-beats.maxpat
 * maq.inst.korg-volca-fm-midi-cc.maxpat
 * maq.inst.korg-volca-fm.maxpat
@@ -77,6 +79,11 @@ just started, stay tuned.
 
 ## future additions to the library
 
+* acidlab bassline3
+* acidlab bombass
+* acidlab detroit
+* acidlab drumatix
+* acidlab miami
 * alesis sr-16
 * alesis sr-18
 * arturia drumbrute
