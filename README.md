@@ -69,6 +69,7 @@ just started, stay tuned.
 
 * [critter and guitari bolsa bass](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/critter-and-guitari-bolsa-bass.md)
 * [critter and guitari septavox](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/critter-and-guitari-septavox.md)
+* [cyclone analogic tt-78 beat bot ](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/cyclone-analogic-tt-78-beat-bot.md)
 * [cyclone analogic tt-303 bass bot mkii ](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/cyclone-analogic-tt-303-bass-bot-mkii.md)
 * [korg volca beats](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/korg-volca-beats.md)
 * [korg volca fm](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/korg-volca-fm.md)
@@ -92,6 +93,7 @@ just started, stay tuned.
 * boss dr-880
 * boss es-8
 * cyclone analogic tt-303 bass bot mki
+* cyclone analogic tt-606 drum drone
 * critter and guitari pocket piano midi
 * dave smith instruments tempest
 * digitech whammy 4
