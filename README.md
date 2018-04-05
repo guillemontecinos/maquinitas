@@ -37,15 +37,15 @@ just started, stay tuned.
 
 there are two types of patches: maq.inst and maq.util.
 
-maq.inst patches are for operating particular hardware midi instruments.
-
-maq.util patches are utilities.
+* maq.inst patches are for operating particular hardware midi instruments.
+* maq.util patches are utilities.
 
 list of available patches:
 
 * maq.inst.alesis-sr-16.maxpat
 * maq.inst.critter-and-guitari-bolsa-bass.maxpat
 * maq.inst.critter-and-guitari-septavox.maxpat
+* maq.inst.cyclone-analogic-tt-303-bass-bot-mkii.maxpat
 * maq.inst.korg-volca-beats-midi-cc.maxpat
 * maq.inst.korg-volca-beats-midi-note.maxpat
 * maq.inst.korg-volca-beats.maxpat
@@ -69,6 +69,7 @@ just started, stay tuned.
 
 * [critter and guitari bolsa bass](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/critter-and-guitari-bolsa-bass.md)
 * [critter and guitari septavox](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/critter-and-guitari-septavox.md)
+* [cyclone analogic tt-303 bass bot mkii ](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/cyclone-analogic-tt-303-bass-bot-mkii.md)
 * [korg volca beats](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/korg-volca-beats.md)
 * [korg volca fm](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/korg-volca-fm.md)
 * [korg volca kick](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/korg-volca-kick.md)
@@ -90,6 +91,7 @@ just started, stay tuned.
 * boss dr-3
 * boss dr-880
 * boss es-8
+* cyclone analogic tt-303 bass bot mki
 * critter and guitari pocket piano midi
 * dave smith instruments tempest
 * digitech whammy 4
