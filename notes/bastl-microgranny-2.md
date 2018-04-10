@@ -18,7 +18,7 @@ if the TUNED parameter is turned ON, the last played sound gets spread and trans
 
 If the TUNED parameter is turned OFF, the range of 5 octaves (with C4 in the middle) represents the whole sample and pressing different keys sets starting position of the playback. When used with granular settings this feature can be used to play individual grains.
 
-Tip: in case you happen to have some hanging MIDI nontes, turning ON and OFF the HOLD function will reset the MIDI note buffer.
+Tip: in case you happen to have some hanging MIDI notes, turning ON and OFF the HOLD function will reset the MIDI note buffer.
 
 ## MIDI CC
 
