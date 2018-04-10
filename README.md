@@ -43,6 +43,7 @@ there are two types of patches: maq.inst and maq.util.
 list of available patches:
 
 * maq.inst.alesis-sr-16.maxpat
+* maq.inst.bastl-microgranny-2.maxpat
 * maq.inst.critter-and-guitari-bolsa-bass.maxpat
 * maq.inst.critter-and-guitari-septavox.maxpat
 * maq.inst.cyclone-analogic-tt-303-bass-bot-mkii.maxpat
@@ -66,7 +67,8 @@ list of available patches:
 just started, stay tuned.
 
 ## instruments
-
+* [alesis sr-16 2](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/alesis-sr-16.md)
+* [bast microgrannny 2](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/bastl-microgranny-2.md)
 * [critter and guitari bolsa bass](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/critter-and-guitari-bolsa-bass.md)
 * [critter and guitari septavox](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/critter-and-guitari-septavox.md)
 * [cyclone analogic tt-78 beat bot ](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/cyclone-analogic-tt-78-beat-bot.md)
