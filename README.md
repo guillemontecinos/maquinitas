@@ -20,7 +20,7 @@ maquinitas is a project by [Aarón Montoya-Moraga](http://montoyamoraga.io/).
 
 ## maquinitas-max
 
-Max flavor of maquinitas.
+[Max](https://cycling74.com/) flavor of maquinitas.
 
 There are two types of patches:
 
@@ -51,12 +51,15 @@ List of available patches:
 
 ## maquinitas-m4l
 
+[Max for Live](https://www.ableton.com/en/live/max-for-live/) flavor of maquinitas.
+
 Stay tuned for further details.
 
 ## maquinitas-chuck
 
-Stay tuned for further details.
+[ChucK](http://chuck.cs.princeton.edu/) flavor of maquinitas.
 
+Stay tuned for further details.
 
 ## Instruments
 
