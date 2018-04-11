@@ -1,6 +1,5 @@
-// maquinitas
-//based on
-//http://chuck.cs.princeton.edu/release/files/chuck_manual.pdf
+//maquinitas
+//maq.inst.korg.volca.keys.ck
 
 // for checking all the connected audio and midi devices
 // do this on the terminnal
@@ -34,11 +33,11 @@ Std.rand2(0,127) => midiMessage.data2;
 //send the midi data
 midiOut.send(midiMessage);
 
-1 :: second => now;
+//let a random amount of time pass
+Std.rand2f(0.1,2.0) :: second => now;
 
 0 => midiMessage.data3;
 midiOut.send(midiMessage);
-
 
 //all note off
 for (0 => int i; i < 127; i++)
