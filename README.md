@@ -10,11 +10,11 @@ maquinitas is a project by [Aarón Montoya-Moraga](http://montoyamoraga.io/).
 
 ## Contents of this repository
 
-* [maquinitas-chuck](https://github.com/montoyamoraga/maquinitas/tree/gh-pages/maquinitas-m4l): ChucK flavor of maquinitas.
+* [maquinitas-chuck](https://github.com/montoyamoraga/maquinitas/tree/gh-pages/maquinitas-m4l): [ChucK](http://chuck.cs.princeton.edu/) flavor of maquinitas.
 
-* [maquinitas-m4l](https://github.com/montoyamoraga/maquinitas/tree/gh-pages/maquinitas-m4l): Max for Live flavor of maquinitas.
+* [maquinitas-m4l](https://github.com/montoyamoraga/maquinitas/tree/gh-pages/maquinitas-m4l): [Max for Live](https://www.ableton.com/en/live/max-for-live/) flavor of maquinitas.
 
-* [maquinitas-max](https://github.com/montoyamoraga/maquinitas/tree/gh-pages/maquinitas-max): Max flavor of maquinitas.
+* [maquinitas-max](https://github.com/montoyamoraga/maquinitas/tree/gh-pages/maquinitas-max): [Max](https://cycling74.com/) flavor of maquinitas.
 
 * [maquinitas-pd](https://github.com/montoyamoraga/maquinitas/tree/gh-pages/maquinitas-max): [Pure Data](http://puredata.info/) flavor of maquinitas.
 
