@@ -1,46 +1,33 @@
 # maquinitas
 
-## about
+## About
 
-maquinitas is a software library for controlling hardware instruments via midi.
+maquinitas is a software library for controlling hardware instruments via MIDI.
 
-maquinitas is a project by [aarón montoya-moraga](http://montoyamoraga.io/).
+maquinitas is a project by [Aarón Montoya-Moraga](http://montoyamoraga.io/).
 
-## releases
+## Contents of this repository
 
-* [v0.0.8](https://github.com/montoyamoraga/maquinitas/releases/tag/v0.0.8): released on wednesday april 04th 2018, new structure of maquinitas - max.
-* [v0.0.7](https://github.com/montoyamoraga/maquinitas/releases/tag/v0.0.7): released on friday march 09th 2018, adds notes and max patches for korg volca fm. it also includes new abstractions: maq.bpm-to-ms, maq.ms-per-beat, maq.probability, maq.random-modes.
-* [v0.0.6](https://github.com/montoyamoraga/maquinitas/releases/tag/v0.0.6): released on saturday march 03rd 2018, adds notes and max patches for alesis sr-16 and moog minitaur. it also includes placeholder files for both max for live and chuck flavors of the library.
-* [v0.0.5](https://github.com/montoyamoraga/maquinitas/releases/tag/v0.0.5): released on saturday february 24th 2018, adds notes and max patches for critter and guitari bolsa bass.
-* [v0.0.4](https://github.com/montoyamoraga/maquinitas/releases/tag/v0.0.4): released on thursday february 22nd 2018, adds notes and max patches for roland tr-08.
-* [v0.0.3](https://github.com/montoyamoraga/maquinitas/releases/tag/v0.0.3): released on wednesday february 21st 2018, adds notes and max patches for roland sh-01a. the library is bundled for distribution as max package.
-* [v0.0.2](https://github.com/montoyamoraga/maquinitas/releases/tag/v0.0.2): released on monday february 19th 2018, adds notes and max patches for korg volca beats and korg volca kick.
-* [v0.0.1](https://github.com/montoyamoraga/maquinitas/releases/tag/v0.0.1): max patches for roland tr-505 and critter and guitari septavox, released on saturday february 17th 2018 at babycastles, nyc for frequency sweep #2.
+* [maquinitas-chuck](https://github.com/montoyamoraga/maquinitas/tree/gh-pages/maquinitas-m4l): ChucK flavor of maquinitas.
 
-## contents of this repository
+* [maquinitas-m4l](https://github.com/montoyamoraga/maquinitas/tree/gh-pages/maquinitas-m4l): Max for Live flavor.
 
-* [maquinitas-chuck](https://github.com/montoyamoraga/maquinitas/tree/gh-pages/maquinitas-m4l): chuck flavor of the maquinitas library.
+* [maquinitas-max](https://github.com/montoyamoraga/maquinitas/tree/gh-pages/maquinitas-max): Max flavor.
 
-* [maquinitas-m4l](https://github.com/montoyamoraga/maquinitas/tree/gh-pages/maquinitas-m4l): max for live flavor of the maquinitas library.
+* [Notes](https://github.com/montoyamoraga/maquinitas/tree/gh-pages/notes): Notes for all the instruments, based on the original manuals.
 
-* [maquinitas-max](https://github.com/montoyamoraga/maquinitas/tree/gh-pages/maquinitas-max): max flavor of the maquinitas library.
-
-* [notes](https://github.com/montoyamoraga/maquinitas/tree/gh-pages/notes): notes for all the instruments.
-
-* [releases](https://github.com/montoyamoraga/maquinitas/tree/gh-pages/releases): history of all of the past releases of the library.
-
-## maquinitas-chuck
-
-just started, stay tuned.
+* [Releases](https://github.com/montoyamoraga/maquinitas/tree/gh-pages/releases): History of all of the past releases of maquinitas.
 
 ## maquinitas-max
 
-there are two types of patches: maq.inst and maq.util.
+Max flavor of maquinitas.
 
-* maq.inst patches are for operating particular hardware midi instruments.
-* maq.util patches are utilities.
+There are two types of patches:
 
-list of available patches:
+* maq.inst patches are specific for different hardware MIDI instruments.
+* maq.util patches are general utilities.
+
+List of available patches:
 
 * maq.inst.alesis-sr-16.maxpat
 * maq.inst.bastl-microgranny-2.maxpat
@@ -64,106 +51,127 @@ list of available patches:
 
 ## maquinitas-m4l
 
-just started, stay tuned.
+Stay tuned for further details.
 
-## instruments
-* [alesis sr-16 2](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/alesis-sr-16.md)
-* [bast microgrannny 2](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/bastl-microgranny-2.md)
-* [critter and guitari bolsa bass](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/critter-and-guitari-bolsa-bass.md)
-* [critter and guitari septavox](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/critter-and-guitari-septavox.md)
-* [cyclone analogic tt-78 beat bot ](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/cyclone-analogic-tt-78-beat-bot.md)
-* [cyclone analogic tt-303 bass bot mkii ](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/cyclone-analogic-tt-303-bass-bot-mkii.md)
-* [korg volca beats](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/korg-volca-beats.md)
-* [korg volca fm](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/korg-volca-fm.md)
-* [korg volca kick](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/korg-volca-kick.md)
-* [moog minitaur](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/moog-minitaur.md)
-* [roland sh-01a](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/roland-tr-505.md)
-* [roland tr-08](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/roland-tr-08.md)
-* [roland tr-505](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/roland-tr-505.md)
+## maquinitas-chuck
 
-## future additions to the library
+Stay tuned for further details.
 
-* acidlab bassline3
-* acidlab bombass
-* acidlab detroit
-* acidlab drumatix
-* acidlab miami
-* alesis sr-16
-* alesis sr-18
-* arturia drumbrute
-* boss dr-3
-* boss dr-880
-* boss es-8
-* cyclone analogic tt-303 bass bot mki
-* cyclone analogic tt-606 drum drone
-* critter and guitari pocket piano midi
-* dave smith instruments tempest
-* digitech whammy 4
-* digitech whammy 5
-* digitech whammy bass
-* digitech whammy dt
-* electro-harmonix 45000
-* electro-harmonix 95000
-* electro-harmonix hog 2
-* elektron analog four mki
-* elektron analog four mkii
-* elektron analog heat
-* elektron analog keys
-* elektron analog rytm mki
-* elektron analog rytm mkii
-* elektron digitakt
-* elektron digitone
-* eventide h9
-* eventide modfactor
-* eventide pitchfactor
-* eventide space
-* eventide timefactor
-* korg kaoss pad kp3+
-* korg kaossilator pro+
-* korg microkorg
-* korg microkorg s
-* korg microkorg xl+
-* korg minilogue
-* korg monologue
-* korg prologue
-* korg volca bass
-* korg volca keys
-* korg volca sample
-* mfb tanzbär lite
-* mfb tanzbär
-* mfb tanzmaus
-* molten voltage
-* moog dfam
-* moog little phatty stage ii
-* moog mf-105m midi murf
-* moog minimoog voyager
-* moog minimoog voyager xl
-* moog mother 32
-* moog slim phatty
-* moog sub 37
-* moog subsequent 37
-* moog subsequent 37 cv
-* moog sub phatty
-* mutable instruments yarns
-* nord drum
-* nord drum 2
-* nord drum 3p
-* radel digi-108
-* roland tr-09
-* roland tr-606
-* roland tr-707
-* roland tr-727
-* roland tr-8
-* roland tr-808
-* roland tr-909
-* step audio riff-step
-* strymon bigsky
-* strymon mobius
-* strymon timeline
-* teenage engineering op-1
-* waldorf rocket
-* waldorf streichfett
 
-## license
+## Instruments
 
-mit
+These instruments have been added to the library so far. Each link has notes taken from the manuals.
+
+* [Alesis SR-16 2](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/alesis-sr-16.md)
+* [Bastl microGranny 2](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/bastl-microgranny-2.md)
+* [Critter and Guitari Bolsa Bass](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/critter-and-guitari-bolsa-bass.md)
+* [Critter and Guitari Septavox](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/critter-and-guitari-septavox.md)
+* [Cyclone Analogic TT-78 Beat Bot ](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/cyclone-analogic-tt-78-beat-bot.md)
+* [Cyclone Analogic TT-303 Bass Bot MKii ](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/cyclone-analogic-tt-303-bass-bot-mkii.md)
+* [Korg Volca Beats](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/korg-volca-beats.md)
+* [Korg Volca FM](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/korg-volca-fm.md)
+* [Korg Volca Kick](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/korg-volca-kick.md)
+* [Moog Minitaur](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/moog-minitaur.md)
+* [Roland SH-01A](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/roland-tr-505.md)
+* [Roland TR-08](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/roland-tr-08.md)
+* [Roland TR-505](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/roland-tr-505.md)
+
+These other instruments will be added later to the library.
+
+* Acidlab Bassline3
+* Acidlab Bombass
+* Acidlab Detroit
+* Acidlab Drumatix
+* Acidlab Miami
+* Alesis SR-16
+* Alesis SR-18
+* Arturia DrumBrute
+* Boss DR-3
+* Boss DR-880
+* Boss ES-8
+* Cyclone Analogic tt-303 Bass Bot MKi
+* Cyclone Analogic tt-606 Drum Drone
+* Critter and Guitari Pocket Piano MIDI
+* Dave Smith Instruments Tempest
+* Digitech Whammy 4
+* Digitech Whammy 5
+* Digitech Whammy bass
+* Digitech Whammy dt
+* Electro-Harmonix 45000
+* Electro-Harmonix 95000
+* Electro-Harmonix HOG 2
+* Elektron Analog Four MKi
+* Elektron Analog Four MKii
+* Elektron Analog Heat
+* Elektron Analog Keys
+* Elektron Analog Rytm MKi
+* Elektron Analog Rytm MKii
+* Elektron Digitakt
+* Elektron Digitone
+* Eventide H9
+* Eventide ModFactor
+* Eventide PitchFactor
+* Eventide Space
+* Eventide TimeFactor
+* Korg Kaoss Pad KP3+
+* Korg Kaossilator Pro+
+* Korg MicroKORG
+* Korg MicroKORG S
+* Korg MicroKORG XL+
+* Korg Minilogue
+* Korg Monologue
+* Korg Prologue
+* Korg Volca Bass
+* Korg Volca Keys
+* Korg Volca Sample
+* MFB Tanzbär lite
+* MFB Tanzbär
+* MFB Tanzmaus
+* Molten Voltage
+* Moog DFAM
+* Moog Little Phatty Stage ii
+* Moog MF-105M MIDI MuRF
+* Moog minimoog Voyager
+* Moog minimoog Voyager XL
+* Moog Mother 32
+* Moog Slim Phatty
+* Moog Sub 37
+* Moog Subsequent 37
+* Moog Subsequent 37 CV
+* Moog Sub Phatty
+* Mutable Instruments Yarns
+* Nord Drum
+* Nord Drum 2
+* Nord Drum 3p
+* Radel Digi-108
+* Roland TR-09
+* Roland TR-606
+* Roland TR-707
+* Roland TR-727
+* Roland TR-8
+* Roland TR-8S
+* Roland TR-808
+* Roland TR-909
+* Step Audio Riff-Step
+* Strymon BigSky
+* Strymon Mobius
+* Strymon Timeline
+* Teenage Engineering OP-1
+* Waldorf Rocket
+* Waldorf Streichfett
+* Yamaha Tenori-on
+
+## Releases
+
+* [v0.0.8](https://github.com/montoyamoraga/maquinitas/releases/tag/v0.0.8): Released on Wednesday April 11th 2018, adds more notes and Max patches for Cyclone Analogic instruments, Bastl microGranny 2, Korg Volca series. Also new README file.
+* [v0.0.7](https://github.com/montoyamoraga/maquinitas/releases/tag/v0.0.7): Released on Friday March 09th 2018, adds notes and Max patches for Korg Volca FM. It also includes new abstractions: maq.bpm-to-ms, maq.ms-per-beat, maq.probability, maq.random-modes.
+* [v0.0.6](https://github.com/montoyamoraga/maquinitas/releases/tag/v0.0.6): Released on Saturday March 03rd 2018, adds notes and Max patches for Alesis SR-16 and Moog Minitaur. It also includes placeholder files for both Max for Live and ChucK flavors.
+* [v0.0.5](https://github.com/montoyamoraga/maquinitas/releases/tag/v0.0.5): Released on Saturday February 24th 2018, adds notes and Max patches for Critter and Guitari Bolsa Bass.
+* [v0.0.4](https://github.com/montoyamoraga/maquinitas/releases/tag/v0.0.4): released on Thursday February 22nd 2018, adds notes and Max patches for Roland TR-08.
+* [v0.0.3](https://github.com/montoyamoraga/maquinitas/releases/tag/v0.0.3): Released on Wednesday February 21st 2018, adds notes and Max patches for Roland SH-01A. The library is bundled for distribution as Max package.
+* [v0.0.2](https://github.com/montoyamoraga/maquinitas/releases/tag/v0.0.2): Released on Monday February 19th 2018, adds notes and Max patches for Korg Volca Beats and Korg Volca Kick.
+* [v0.0.1](https://github.com/montoyamoraga/maquinitas/releases/tag/v0.0.1): Max patches for Roland TR-505 and Critter and Guitari Septavox, released on Saturday February 17th 2018 at Babycastles, NYC USA for [frequency sweep #2](http://frequencysweep.com/).
+
+## License
+
+MIT
