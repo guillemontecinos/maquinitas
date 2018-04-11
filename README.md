@@ -2,7 +2,7 @@
 
 ## About
 
-maquinitas is a software library for controlling hardware instruments via MIDI.
+maquinitas is a free/libre open-source software library for controlling hardware MIDI instruments.
 
 maquinitas is a project by [Aarón Montoya-Moraga](http://montoyamoraga.io/).
 
