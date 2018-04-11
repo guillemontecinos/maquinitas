@@ -1,6 +1,6 @@
 // maquinitas
 //based on
-//http://chuck.cs.princeton.edu/release/files/chuck_manual.pd
+//http://chuck.cs.princeton.edu/release/files/chuck_manual.pdf
 
 // for checking all the connected audio and midi devices
 // do this on the terminnal
@@ -23,9 +23,28 @@ if (!isThisOpen) {
 MidiMsg midiMessage;
 
 //placeholder midi data
-144 => message.data1;
-144 => message.data2;
-144 => message.data3;
+//data1 is midi message type
+//144 is note on
+144 => midiMessage.data1;
+//data2 is pitch
+Std.rand2(0,127) => midiMessage.data2;
+//data3 is velocity
+127 => midiMessage.data3;
 
 //send the midi data
 midiOut.send(midiMessage);
+
+1 :: second => now;
+
+0 => midiMessage.data3;
+midiOut.send(midiMessage);
+
+
+//all note off
+for (0 => int i; i < 127; i++)
+{
+    i => midiMessage.data2;
+    0 => midiMessage.data3;
+    midiOut.send(midiMessage);
+}
+

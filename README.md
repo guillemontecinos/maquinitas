@@ -196,3 +196,7 @@ The following artists use maquinitas in their artist practice.
 ## License
 
 MIT
+
+## References
+
+* [The ChucK Manual 1.2.1.3](http://chuck.cs.princeton.edu/release/files/chuck_manual.pdf)
