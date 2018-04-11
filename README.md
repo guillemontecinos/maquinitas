@@ -131,7 +131,9 @@ These other instruments will be added later to maquinitas.
 
 [ChucK](http://chuck.cs.princeton.edu/) flavor of maquinitas.
 
-Stay tuned for further details.
+List of available ChucK scripts:
+
+* maq.inst.korg.volca.keys.ck
 
 ## maquinitas-max
 
@@ -191,7 +193,7 @@ List of available Pure Data patches:
 
 ## Artists
 
-The following artists use maquinitas in their artist practice.
+The following artists use maquinitas.
 
 ## License
 
