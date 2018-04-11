@@ -22,7 +22,7 @@ Tip: in case you happen to have some hanging MIDI notes, turning ON and OFF the 
 
 ## MIDI CC
 
-microGranny reacts to MIDI CC messages to set the parameters of the sound, CC mapping is 102 = SAMPLE RATE, 103 = CRUSH, 104 = ATTACK, 105 = , 106 = GRAIN SIZE, 107 = GRAIN SPEED, 108 = START, 109 = END, 0 = PRESET CHANGE. Modulation wheel sets the GRAIN SIZE and Sustain pedal is also, too.
+microGranny reacts to MIDI CC messages to set the parameters of the sound, CC mapping is 102 = SAMPLE RATE, 103 = CRUSH, 104 = ATTACK, 105 = RELEASE, 106 = GRAIN SIZE, 107 = SHIFT SPEED, 108 = START, 109 = END, 0 = PRESET CHANGE. Modulation wheel sets the GRAIN SIZE and Sustain pedal is also, too.
 
 ## MIDI Sync
 
