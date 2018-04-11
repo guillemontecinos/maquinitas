@@ -4,66 +4,29 @@
 
 maquinitas is a free/libre open-source software library for controlling hardware MIDI instruments.
 
+maquinitas is for everyone that wants to learn about MIDI, computer music, and wants to use software for manipulating , in both live performance and studio settings.
+
 maquinitas is a project by [Aarón Montoya-Moraga](http://montoyamoraga.io/).
 
 ## Contents of this repository
 
 * [maquinitas-chuck](https://github.com/montoyamoraga/maquinitas/tree/gh-pages/maquinitas-m4l): ChucK flavor of maquinitas.
 
-* [maquinitas-m4l](https://github.com/montoyamoraga/maquinitas/tree/gh-pages/maquinitas-m4l): Max for Live flavor.
+* [maquinitas-m4l](https://github.com/montoyamoraga/maquinitas/tree/gh-pages/maquinitas-m4l): Max for Live flavor of maquinitas.
 
-* [maquinitas-max](https://github.com/montoyamoraga/maquinitas/tree/gh-pages/maquinitas-max): Max flavor.
+* [maquinitas-max](https://github.com/montoyamoraga/maquinitas/tree/gh-pages/maquinitas-max): Max flavor of maquinitas.
 
-* [Notes](https://github.com/montoyamoraga/maquinitas/tree/gh-pages/notes): Notes for all the instruments, based on the original manuals.
+* [maquinitas-pd](https://github.com/montoyamoraga/maquinitas/tree/gh-pages/maquinitas-max): [Pure Data](http://puredata.info/) flavor of maquinitas.
+
+* [Notes](https://github.com/montoyamoraga/maquinitas/tree/gh-pages/notes): Notes for all the instruments included on maquinitas, based on the original manuals.
 
 * [Releases](https://github.com/montoyamoraga/maquinitas/tree/gh-pages/releases): History of all of the past releases of maquinitas.
 
-## maquinitas-max
-
-[Max](https://cycling74.com/) flavor of maquinitas.
-
-There are two types of patches:
-
-* maq.inst patches are specific for different hardware MIDI instruments.
-* maq.util patches are general utilities.
-
-List of available patches:
-
-* maq.inst.alesis-sr-16.maxpat
-* maq.inst.bastl-microgranny-2.maxpat
-* maq.inst.critter-and-guitari-bolsa-bass.maxpat
-* maq.inst.critter-and-guitari-septavox.maxpat
-* maq.inst.cyclone-analogic-tt-303-bass-bot-mkii.maxpat
-* maq.inst.korg-volca-beats-midi-cc.maxpat
-* maq.inst.korg-volca-beats-midi-note.maxpat
-* maq.inst.korg-volca-beats.maxpat
-* maq.inst.korg-volca-fm-midi-cc.maxpat
-* maq.inst.korg-volca-fm.maxpat
-* maq.inst.korg-volca-kick.maxpat
-* maq.inst.moog-minitaur.maxpat
-* maq.inst.roland-sh-01a.maxpat
-* maq.inst.roland-tr-08.maxpat
-* maq.inst.roland-tr-505.maxpat
-* maq.util.bpm-to-ms-per-beat.maxpat
-* maq.util.ms-per-step.maxpat
-* maq.util.probability.maxpat
-* maq.util.random-modes.maxpat
-
-## maquinitas-m4l
-
-[Max for Live](https://www.ableton.com/en/live/max-for-live/) flavor of maquinitas.
-
-Stay tuned for further details.
-
-## maquinitas-chuck
-
-[ChucK](http://chuck.cs.princeton.edu/) flavor of maquinitas.
-
-Stay tuned for further details.
+---
 
 ## Instruments
 
-These instruments have been added to the library so far. Each link has notes taken from the manuals.
+These instruments have been added to maquinitas. Each link has notes taken from the manuals.
 
 * [Alesis SR-16 2](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/alesis-sr-16.md)
 * [Bastl microGranny 2](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/bastl-microgranny-2.md)
@@ -79,7 +42,7 @@ These instruments have been added to the library so far. Each link has notes tak
 * [Roland TR-08](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/roland-tr-08.md)
 * [Roland TR-505](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/roland-tr-505.md)
 
-These other instruments will be added later to the library.
+These other instruments will be added later to maquinitas.
 
 * Acidlab Bassline3
 * Acidlab Bombass
@@ -164,9 +127,60 @@ These other instruments will be added later to the library.
 * Waldorf Streichfett
 * Yamaha Tenori-on
 
+## maquinitas-chuck
+
+[ChucK](http://chuck.cs.princeton.edu/) flavor of maquinitas.
+
+Stay tuned for further details.
+
+## maquinitas-max
+
+[Max](https://cycling74.com/) flavor of maquinitas.
+
+There are two types of patches:
+
+* maq.inst patches are specific for different hardware MIDI instruments.
+* maq.util patches are general utilities.
+
+List of available Max patches:
+
+* maq.inst.alesis-sr-16.maxpat
+* maq.inst.bastl-microgranny-2.maxpat
+* maq.inst.critter-and-guitari-bolsa-bass.maxpat
+* maq.inst.critter-and-guitari-septavox.maxpat
+* maq.inst.cyclone-analogic-tt-303-bass-bot-mkii.maxpat
+* maq.inst.korg-volca-beats-midi-cc.maxpat
+* maq.inst.korg-volca-beats-midi-note.maxpat
+* maq.inst.korg-volca-beats.maxpat
+* maq.inst.korg-volca-fm-midi-cc.maxpat
+* maq.inst.korg-volca-fm.maxpat
+* maq.inst.korg-volca-kick.maxpat
+* maq.inst.moog-minitaur.maxpat
+* maq.inst.roland-sh-01a.maxpat
+* maq.inst.roland-tr-08.maxpat
+* maq.inst.roland-tr-505.maxpat
+* maq.util.bpm-to-ms-per-beat.maxpat
+* maq.util.ms-per-step.maxpat
+* maq.util.probability.maxpat
+* maq.util.random-modes.maxpat
+
+## maquinitas-m4l
+
+[Max for Live](https://www.ableton.com/en/live/max-for-live/) flavor of maquinitas.
+
+Stay tuned for further details.
+
+## maquinitas-puredata
+
+[Pure Data](http://puredata.info/) flavor of maquinitas.
+
+List of available Pure Data patches:
+
+* maq.inst.korg.volca.keys.pd
+
 ## Releases
 
-* [v0.0.8](https://github.com/montoyamoraga/maquinitas/releases/tag/v0.0.8): Released on Wednesday April 11th 2018, adds more notes and Max patches for Cyclone Analogic instruments, Bastl microGranny 2, Korg Volca series. Also new README file.
+* [v0.0.8](https://github.com/montoyamoraga/maquinitas/releases/tag/v0.0.8): Released on Wednesday April 11th 2018, adds more notes and Max patches for Cyclone Analogic instruments, Bastl microGranny 2, Korg Volca series. Add new README file. Add Pure Data flavor of maquinitas.
 * [v0.0.7](https://github.com/montoyamoraga/maquinitas/releases/tag/v0.0.7): Released on Friday March 09th 2018, adds notes and Max patches for Korg Volca FM. It also includes new abstractions: maq.bpm-to-ms, maq.ms-per-beat, maq.probability, maq.random-modes.
 * [v0.0.6](https://github.com/montoyamoraga/maquinitas/releases/tag/v0.0.6): Released on Saturday March 03rd 2018, adds notes and Max patches for Alesis SR-16 and Moog Minitaur. It also includes placeholder files for both Max for Live and ChucK flavors.
 * [v0.0.5](https://github.com/montoyamoraga/maquinitas/releases/tag/v0.0.5): Released on Saturday February 24th 2018, adds notes and Max patches for Critter and Guitari Bolsa Bass.
@@ -174,6 +188,10 @@ These other instruments will be added later to the library.
 * [v0.0.3](https://github.com/montoyamoraga/maquinitas/releases/tag/v0.0.3): Released on Wednesday February 21st 2018, adds notes and Max patches for Roland SH-01A. The library is bundled for distribution as Max package.
 * [v0.0.2](https://github.com/montoyamoraga/maquinitas/releases/tag/v0.0.2): Released on Monday February 19th 2018, adds notes and Max patches for Korg Volca Beats and Korg Volca Kick.
 * [v0.0.1](https://github.com/montoyamoraga/maquinitas/releases/tag/v0.0.1): Max patches for Roland TR-505 and Critter and Guitari Septavox, released on Saturday February 17th 2018 at Babycastles, NYC USA for [frequency sweep #2](http://frequencysweep.com/).
+
+## Artists
+
+The following artists use maquinitas in their artist practice.
 
 ## License
 
