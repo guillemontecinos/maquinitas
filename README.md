@@ -10,13 +10,15 @@ maquinitas is a project by [Aarón Montoya-Moraga](http://montoyamoraga.io/).
 
 ## Contents of this repository
 
-* [maquinitas-chuck](https://github.com/montoyamoraga/maquinitas/tree/gh-pages/maquinitas-m4l): [ChucK](http://chuck.cs.princeton.edu/) flavor of maquinitas.
+* [maquinitas-chuck](https://github.com/montoyamoraga/maquinitas/tree/gh-pages/maquinitas-chuck): maquinitas x [ChucK](http://chuck.cs.princeton.edu/).
 
-* [maquinitas-m4l](https://github.com/montoyamoraga/maquinitas/tree/gh-pages/maquinitas-m4l): [Max for Live](https://www.ableton.com/en/live/max-for-live/) flavor of maquinitas.
+* [maquinitas-m4l](https://github.com/montoyamoraga/maquinitas/tree/gh-pages/maquinitas-m4l): maquinitas x [Max for Live](https://www.ableton.com/en/live/max-for-live/).
 
-* [maquinitas-max](https://github.com/montoyamoraga/maquinitas/tree/gh-pages/maquinitas-max): [Max](https://cycling74.com/) flavor of maquinitas.
+* [maquinitas-max](https://github.com/montoyamoraga/maquinitas/tree/gh-pages/maquinitas-max): maquinitas x [Max](https://cycling74.com/).
 
-* [maquinitas-pd](https://github.com/montoyamoraga/maquinitas/tree/gh-pages/maquinitas-max): [Pure Data](http://puredata.info/) flavor of maquinitas.
+* [maquinitas-pd](https://github.com/montoyamoraga/maquinitas/tree/gh-pages/maquinitas-pd): maquinitas x [Pure Data](http://puredata.info/).
+
+* [maquinitas-sc](https://github.com/montoyamoraga/maquinitas/tree/gh-pages/maquinitas-sc): maquinitas x [SuperCollider](https://supercollider.github.io/).
 
 * [Notes](https://github.com/montoyamoraga/maquinitas/tree/gh-pages/notes): Notes for all the instruments included on maquinitas, based on the original manuals.
 
@@ -135,6 +137,12 @@ List of available ChucK scripts:
 
 * maq.inst.korg.volca.keys.ck
 
+## maquinitas-m4l
+
+[Max for Live](https://www.ableton.com/en/live/max-for-live/) flavor of maquinitas.
+
+Stay tuned for further details.
+
 ## maquinitas-max
 
 [Max](https://cycling74.com/) flavor of maquinitas.
@@ -166,12 +174,6 @@ List of available Max patches:
 * maq.util.probability.maxpat
 * maq.util.random-modes.maxpat
 
-## maquinitas-m4l
-
-[Max for Live](https://www.ableton.com/en/live/max-for-live/) flavor of maquinitas.
-
-Stay tuned for further details.
-
 ## maquinitas-puredata
 
 [Pure Data](http://puredata.info/) flavor of maquinitas.
@@ -179,6 +181,12 @@ Stay tuned for further details.
 List of available Pure Data patches:
 
 * maq.inst.korg.volca.keys.pd
+
+## maquinitas-sc
+
+[SuperCollider](https://supercollider.github.io/) flavor of maquinitas.
+
+Stay tuned for further details.
 
 ## Releases
 
