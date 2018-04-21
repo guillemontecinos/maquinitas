@@ -32,10 +32,10 @@ function void sendNote() {
     //nnnn 0-15 in binary, corresponding to midi channels 1-16
     144 => msg.data1;
     //when data1 is 144, data2 is pitch
-    //use 0-127 on roland sh-01a for selecting notes
+    //use 0-127 on moog minitaur for selecting notes
     Std.rand2(0,127) => msg.data2;
     //when data1 is 144, data3 is velocity
-    //use 0-127 on roland sh-01a for selecting velocity
+    //use 0-127 on moog minitaur for selecting velocity
     6 => msg.data3;
     
     //send midi message
@@ -72,7 +72,7 @@ function void allNotesOff() {
         //nnnn 0-15 in binary, corresponding to midi channels 1-16
         144 => msg.data1;
         //when data1 is 144, data2 is pitch
-        //use 0-127 on roland moog minitaur for selecting notes
+        //use 0-127 on moog minitaur for selecting notes
         noteNumber => msg.data2;
         //when data1 is 144, data3 is velocity
         //use 0-127 on moog minitaur for selecting velocity

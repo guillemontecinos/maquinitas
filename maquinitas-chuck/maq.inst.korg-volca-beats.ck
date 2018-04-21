@@ -1,7 +1,7 @@
-//maq.inst.roland-tr-08.ck
+//maq.inst.korg-volca-beats.ck
 
 //print the name of the script to the console
-<<< "maq.inst.roland-tr-08.ck" >>>;
+<<< "maq.inst.korg-volca-beats.ck" >>>;
 
 function void sendNote() {
     //declare MidiOut variable
@@ -27,32 +27,25 @@ function void sendNote() {
     }
     
     //do note on message
-    //data1: 53 is note on, channel 10
+    //data1: 153 is note on, channel 10
     //in binary, 1001nnnn is note on, where nnnn is midi channel
     //nnnn 0-15 in binary, corresponding to midi channels 1-16
     153 => msg.data1;
     //when data1 is 153, data2 is pitch
-    //use 0-127 on roland tr-08 for selecting notes
-    //36 bass drum
-    //37 rim shot
-    //38 snare drum
-    //39 hand clap
-    //42 closed hi-hat
-    //43 low tom
-    //46 open hi-hat
-    //47 mid tom
-    //49 cymbal
-    //50 high tom
-    //56 cow bell
-    //62 high conga
-    //63 mid conga
-    //64 low conga
-    //70 maracas
+    //use note numbers on korg volca beats for selecting notes
+    //36 kick
+    //38 snare
+    //39 clap
+    //42 cl hat
+    //43 lo tom
+    //46 op hat
+    //49 crash
+    //50 hi tom
+    //67 agogo
     //75 claves
-    [36, 37, 38, 39, 42, 43, 46, 47, 49, 50, 56, 62, 63, 64, 70, 75] @=> int drumVoices[];
-    drumVoices[Std.rand2(0, drumVoices.cap()-1)] => msg.data2;
+    42 => msg.data2;
     //when data1 is 153, data3 is velocity
-    //use 0-127 on roland sh-01a for selecting velocity
+    //use 0-127 on korg volca beats for selecting velocity
     127 => msg.data3;
     
     //send midi message
@@ -84,31 +77,15 @@ function void allNotesOff() {
     
     for (0 => int noteNumber; noteNumber < 127; noteNumber++) {
         //do note on message
-        //data1: 153 is note on, channel 10
+        //data1: 53 is note on, channel 10
         //in binary, 1001nnnn is note on, where nnnn is midi channel
         //nnnn 0-15 in binary, corresponding to midi channels 1-16
         153 => msg.data1;
         //when data1 is 153, data2 is pitch
-        //use 0-127 on roland tr-08 for selecting notes
-        //36 bass drum
-        //37 rim shot
-        //38 snare drum
-        //39 hand clap
-        //42 closed hi-hat
-        //43 low tom
-        //46 open hi-hat
-        //47 mid tom
-        //49 cymbal
-        //50 high tom
-        //56 cow bell
-        //62 high conga
-        //63 mid conga
-        //64 low conga
-        //70 maracas
-        //75 claves
+        //use 0-5 on korg volca beats for selecting samples
         noteNumber => msg.data2;
         //when data1 is 153, data3 is velocity
-        //use 0-127 on roland tr-08 for selecting velocity
+        //use 0-127 on korg volca beats for selecting velocity
         0 => msg.data3;
       
          //send midi message
@@ -141,16 +118,16 @@ function void controlChange() {
     }
     
     //do note on message
-    //data1: 176 is controller change, channel 10
+    //data1: 185 is controller change, channel 10
     //in binary, 1011nnnn is controller on, where nnnn is midi channel
     //nnnn 0-15 in binary, corresponding to midi channels 1-16
     185 => msg.data1;
-    //when data1 is 176, data2 is controller number
-    //use 20-29, 46-63, 71, 80-88 on roland tr-08
-    //25 is sd tone
-    25 => msg.data2;
-    //when data1 is 176, data3 is controller value
-    //use 0-127 on roland tr-08 for selecting value
+    //when data1 is 185, data2 is controller number
+    //use 40-59 on korg volca beats
+    //59 is hat grain
+    59 => msg.data2;
+    //when data1 is 185, data3 is controller value
+    //use 0-127 on korg volca beats for selecting value
     Std.rand2(0, 127) => msg.data3;
      
     //send midi message
