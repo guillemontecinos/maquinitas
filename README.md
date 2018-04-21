@@ -4,7 +4,7 @@
 
 maquinitas is a free/libre open-source software library for controlling hardware MIDI instruments.
 
-maquinitas is for everyone that wants to learn about MIDI, computer music, and wants to use software for manipulating , in both live performance and studio settings.
+maquinitas is for everyone that wants to learn about MIDI, computer music, and wants to use software for manipulating MIDI instruments, in both live performance and studio settings.
 
 maquinitas is a project by [Aarón Montoya-Moraga](http://montoyamoraga.io/).
 
@@ -30,7 +30,7 @@ maquinitas is a project by [Aarón Montoya-Moraga](http://montoyamoraga.io/).
 
 These instruments have been added to maquinitas. Each link has notes taken from the manuals.
 
-* [Alesis SR-16 2](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/alesis-sr-16.md)
+* [Alesis SR-16](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/alesis-sr-16.md)
 * [Bastl microGranny 2](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/bastl-microgranny-2.md)
 * [Critter and Guitari Bolsa Bass](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/critter-and-guitari-bolsa-bass.md)
 * [Critter and Guitari Septavox](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/critter-and-guitari-septavox.md)
@@ -40,9 +40,12 @@ These instruments have been added to maquinitas. Each link has notes taken from 
 * [Korg Volca FM](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/korg-volca-fm.md)
 * [Korg Volca Kick](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/korg-volca-kick.md)
 * [Moog Minitaur](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/moog-minitaur.md)
+* [Novation Bass Station II](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/novation-bass-station-ii.md)
 * [Roland SH-01A](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/roland-tr-505.md)
+* [Roland TB-03](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/roland-tb-03.md)
 * [Roland TR-08](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/roland-tr-08.md)
 * [Roland TR-505](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/roland-tr-505.md)
+* [Waldorf Streichfett](https://github.com/montoyamoraga/maquinitas/blob/gh-pages/notes/waldorf-streichfett.md)
 
 These other instruments will be added later to maquinitas.
 
@@ -111,6 +114,7 @@ These other instruments will be added later to maquinitas.
 * Nord Drum
 * Nord Drum 2
 * Nord Drum 3p
+* Novationn Bass Station
 * Radel Digi-108
 * Roland TR-09
 * Roland TR-606
@@ -126,7 +130,6 @@ These other instruments will be added later to maquinitas.
 * Strymon Timeline
 * Teenage Engineering OP-1
 * Waldorf Rocket
-* Waldorf Streichfett
 * Yamaha Tenori-on
 
 ## maquinitas-chuck
@@ -135,7 +138,14 @@ These other instruments will be added later to maquinitas.
 
 List of available ChucK scripts:
 
-* maq.inst.korg.volca.keys.ck
+* maq.inst.bastl-microgranny-2.ck
+* maq.inst.korg-volca-beats.ck
+* maq.inst.moog-minitaur.ck
+* maq.inst.novation-bass-station-ii.ck
+* maq.inst.novation-bass-station-ii.ck
+* maq.inst.roland-tb-03.ck
+* maq.inst.roland-tb-03.ck
+* maq.inst.waldorf-streichfett.ck
 
 ## maquinitas-m4l
 
@@ -190,6 +200,8 @@ Stay tuned for further details.
 
 ## Releases
 
+
+* [v0.0.9](https://github.com/montoyamoraga/maquinitas/releases/tag/v0.0.9): Released on Wednesday April 21th 2018, adds first batch of ChucK scripts for controlling eight instruments. maquinitas is used for the first time o a workshop, during [Live coding and MIDI 101](https://github.com/montoyamoraga/edu8-workshop-live-coding-and-midi-101) at [Brooklyn Research](https://brooklynresearch.org/).
 * [v0.0.8](https://github.com/montoyamoraga/maquinitas/releases/tag/v0.0.8): Released on Wednesday April 11th 2018, adds more notes and Max patches for Cyclone Analogic instruments, Bastl microGranny 2, Korg Volca series. Add new README file. Add Pure Data flavor of maquinitas.
 * [v0.0.7](https://github.com/montoyamoraga/maquinitas/releases/tag/v0.0.7): Released on Friday March 09th 2018, adds notes and Max patches for Korg Volca FM. It also includes new abstractions: maq.bpm-to-ms, maq.ms-per-beat, maq.probability, maq.random-modes.
 * [v0.0.6](https://github.com/montoyamoraga/maquinitas/releases/tag/v0.0.6): Released on Saturday March 03rd 2018, adds notes and Max patches for Alesis SR-16 and Moog Minitaur. It also includes placeholder files for both Max for Live and ChucK flavors.
@@ -202,6 +214,8 @@ Stay tuned for further details.
 ## Artists
 
 The following artists use maquinitas.
+
+* Víctor Raúl
 
 ## License
 
