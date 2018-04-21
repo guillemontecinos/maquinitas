@@ -4,7 +4,7 @@
 
 to use midi through usb, install the driver available from the roland website.
 
-to factory reset, turn off. hold down the button 2 and turn on. tap will blink, you can cancel factory reset by turning off. if you want to continue, press the tap button to execute the factory reset. when all butons blink, the display says done, and you can turn off and on again.
+to factory reset, turn off. hold down the button 2 and turn on. tap will blink, you can cancel factory reset by turning off. if you want to continue, press the tap button to execute the factory reset. when all buttons blink, the display says done, and you can turn off and on again.
 
 menu mode:
 
